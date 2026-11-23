@@ -1,0 +1,1522 @@
+20STCV36044 — UNIFIED DOCKET AND MEDICAL RECORD
+
+All 429 docket chronology rows match CSV and JSON on timeline ID, source table, source row ID and description; other fields not compared.
+April 22: 8 document listings and 9 register-of-actions rows, including rescheduling; overlapping rows are not independent filings.
+Docket midnight values are date-only placeholders for document and ROA entries, not actual filing times.
+Service records have indistinguishable docket titles; candidate links retained rather than assigning mail/electronic identities.
+Original Chroma medical database remains unavailable; prior XML extraction retained.
+Temporal correlation does not establish knowledge, capacity or causation.
+
+APRIL 22 — ORIGINAL DOCKET ROWS
+314 | documents_filed | 15 | Declaration in Support of Attorney's Motion to Be Relieved as Counsel-Civil | Filed by Laura Alcaraz (Plaintiff)
+315 | documents_filed | 16 | Declaration in Support of Attorney's Motion to Be Relieved as Counsel-Civil | Filed by Laura Elisa Rodriguez (Plaintiff)
+316 | documents_filed | 17 | Motion to Be Relieved as Counsel | Filed by Laura Alcaraz (Plaintiff)
+317 | documents_filed | 18 | Motion to Be Relieved as Counsel | Filed by Laura Elisa Rodriguez (Plaintiff)
+318 | documents_filed | 19 | Proof of Service (not Summons and Complaint) | Filed by Laura Alcaraz (Plaintiff)
+319 | documents_filed | 20 | Proof of Service (not Summons and Complaint) | Filed by Laura Alcaraz (Plaintiff)
+320 | documents_filed | 21 | Proof of Service (not Summons and Complaint) | Filed by Laura Elisa Rodriguez (Plaintiff)
+321 | documents_filed | 22 | Proof of Service (not Summons and Complaint) | Filed by Laura Elisa Rodriguez (Plaintiff)
+322 | register_of_actions | 55 | Motion to Be Relieved as Counsel; Filed by: Attorney | 
+323 | register_of_actions | 56 | Declaration in Support of Attorney's Motion to Be Relieved as Counsel-Civil; Filed by: Laura Alcaraz (Plaintiff) | 
+324 | register_of_actions | 57 | Proof of Service (not Summons and Complaint); Filed by: Laura Alcaraz (Plaintiff) | 
+325 | register_of_actions | 58 | Proof of Service (not Summons and Complaint); Filed by: Laura Alcaraz (Plaintiff) | 
+326 | register_of_actions | 59 | Motion to Be Relieved as Counsel; Filed by: Attorney | 
+327 | register_of_actions | 60 | Declaration in Support of Attorney's Motion to Be Relieved as Counsel-Civil; Filed by: Laura Elisa Rodriguez (Plaintiff) | 
+328 | register_of_actions | 61 | Proof of Service (not Summons and Complaint); Filed by: Laura Elisa Rodriguez (Plaintiff) | 
+329 | register_of_actions | 62 | Proof of Service (not Summons and Complaint); Filed by: Laura Elisa Rodriguez (Plaintiff) | 
+330 | register_of_actions | 63 | Pursuant to the request of moving party, Hearing on Motion to be Relieved as Counsel scheduled for 05/28/2024 at 01:30 PM in Spring Street Courthouse at Department 29 Not Held - Rescheduled by Party was rescheduled to 05/29/2024 01:30 PM | 
+
+APRIL 22 — SYNCHRONIZED SOURCES (date-only records listed separately; no inferred hours)
+2024-04-22 | 20:44:57 | CLINICAL_XML | Encounter | clinical_entry:1
+2024-04-22 | 20:44:57 PDT | CROSS_SOURCE | Final inpatient encounter registered / begins | LAHP_XML_001_May_16_2024_Visit_Care_Summaries_124478076.xml
+2024-04-22 | 20:47 | DOCUMENT_TRANSCRIPTION | Motion to be relieved as counsel — Alcaraz | docket_sync:1
+2024-04-22 | 20:47 | DOCUMENT_TRANSCRIPTION | Supporting declaration — Alcaraz | docket_sync:2
+2024-04-22 | 20:47 | DOCUMENT_TRANSCRIPTION | Proof of service by mail — Alcaraz | docket_sync:3
+2024-04-22 | 20:47 | DOCUMENT_TRANSCRIPTION | Electronic proof of service — defense counsel | docket_sync:4
+2024-04-22 | 20:47 PDT | CROSS_SOURCE | Alcaraz MC-051 e-filed | 4-22-2024_20STCV36044 L.A Motion to Be Relieved as CounselE100061267.pdf
+2024-04-22 | 21:08 | DOCUMENT_TRANSCRIPTION | Motion to be relieved as counsel — Rodriguez | docket_sync:5
+2024-04-22 | 21:08 | DOCUMENT_TRANSCRIPTION | Supporting declaration — Rodriguez | docket_sync:6
+2024-04-22 | 21:08 | DOCUMENT_TRANSCRIPTION | Proof of service by mail — Rodriguez | docket_sync:7
+2024-04-22 | 21:08 | DOCUMENT_TRANSCRIPTION | Electronic proof of service — Rodriguez matter | docket_sync:8
+2024-04-22 | 21:08 PDT | CROSS_SOURCE | Rodriguez MC-051 e-filed | 4-22-2024 20STCV36044 LR Motion to Be Relieved as CounselE100061363.pdf
+2024-04-22 | 22:04:00 | CLINICAL_XML | Vital Signs | clinical_entry:514
+2024-04-22 | 23:43:00 | CLINICAL_XML | Results | clinical_entry:357
+2024-04-22 | 23:49:00 | CLINICAL_XML | Medications | clinical_entry:72
+2024-04-22 | 23:54:00 | CLINICAL_XML | Results | clinical_entry:358
+2024-04-22 | Undated hour | CROSS_SOURCE | Alcaraz MC-052 signed | 4-22-2024 [20STCV36044] L.A Declaration in Support of Attorney's Motion to Be Relieved as Counsel-Civil (Pages 1-2).pdf
+2024-04-22 | Undated hour | CROSS_SOURCE | Rodriguez MC-052 signed | 4-22-2024 [20STCV36044] LR Declaration in Support of Attorney's Motion to Be Relieved as Counsel-Civil (Pages 1-2) E100061364.pdf
+2024-04-22 | TIME UNKNOWN | DOCKET | Declaration in Support of Attorney's Motion to Be Relieved as Counsel-Civil | documents_filed:15
+2024-04-22 | TIME UNKNOWN | DOCKET | Declaration in Support of Attorney's Motion to Be Relieved as Counsel-Civil | documents_filed:16
+2024-04-22 | TIME UNKNOWN | DOCKET | Motion to Be Relieved as Counsel | documents_filed:17
+2024-04-22 | TIME UNKNOWN | DOCKET | Motion to Be Relieved as Counsel | documents_filed:18
+2024-04-22 | TIME UNKNOWN | DOCKET | Proof of Service (not Summons and Complaint) | documents_filed:19
+2024-04-22 | TIME UNKNOWN | DOCKET | Proof of Service (not Summons and Complaint) | documents_filed:20
+2024-04-22 | TIME UNKNOWN | DOCKET | Proof of Service (not Summons and Complaint) | documents_filed:21
+2024-04-22 | TIME UNKNOWN | DOCKET | Proof of Service (not Summons and Complaint) | documents_filed:22
+2024-04-22 | TIME UNKNOWN | DOCKET | Motion to Be Relieved as Counsel; Filed by: Attorney | register_of_actions:55
+2024-04-22 | TIME UNKNOWN | DOCKET | Declaration in Support of Attorney's Motion to Be Relieved as Counsel-Civil; Filed by: Laura Alcaraz (Plaintiff) | register_of_actions:56
+2024-04-22 | TIME UNKNOWN | DOCKET | Proof of Service (not Summons and Complaint); Filed by: Laura Alcaraz (Plaintiff) | register_of_actions:57
+2024-04-22 | TIME UNKNOWN | DOCKET | Proof of Service (not Summons and Complaint); Filed by: Laura Alcaraz (Plaintiff) | register_of_actions:58
+2024-04-22 | TIME UNKNOWN | DOCKET | Motion to Be Relieved as Counsel; Filed by: Attorney | register_of_actions:59
+2024-04-22 | TIME UNKNOWN | DOCKET | Declaration in Support of Attorney's Motion to Be Relieved as Counsel-Civil; Filed by: Laura Elisa Rodriguez (Plaintiff) | register_of_actions:60
+2024-04-22 | TIME UNKNOWN | DOCKET | Proof of Service (not Summons and Complaint); Filed by: Laura Elisa Rodriguez (Plaintiff) | register_of_actions:61
+2024-04-22 | TIME UNKNOWN | DOCKET | Proof of Service (not Summons and Complaint); Filed by: Laura Elisa Rodriguez (Plaintiff) | register_of_actions:62
+2024-04-22 | TIME UNKNOWN | DOCKET | Pursuant to the request of moving party, Hearing on Motion to be Relieved as Counsel scheduled for 05/28/2024 at 01:30 PM in Spring Street Courthouse at Department 29 Not Held - Rescheduled by Party was rescheduled to 05/29/2024 01:30 PM | register_of_actions:63
+
+FULL UNIFIED TIMELINE (source rows may overlap)
+ |  | CLINICAL_XML | Allergies, Adverse Reactions, Alerts | clinical_entry:2
+ |  | CLINICAL_XML | Allergies, Adverse Reactions, Alerts | clinical_entry:3
+ |  | CLINICAL_XML | Allergies, Adverse Reactions, Alerts | clinical_entry:4
+ |  | CLINICAL_XML | Allergies, Adverse Reactions, Alerts | clinical_entry:5
+ |  | CLINICAL_XML | Treatment Plan | clinical_entry:6
+ |  | CLINICAL_XML | Treatment Plan | clinical_entry:7
+ |  | CLINICAL_XML | Treatment Plan | clinical_entry:8
+ |  | CLINICAL_XML | Treatment Plan | clinical_entry:9
+ |  | CLINICAL_XML | Treatment Plan | clinical_entry:10
+ |  | CLINICAL_XML | Procedures | clinical_entry:330
+ |  | CLINICAL_XML | Procedures | clinical_entry:331
+ |  | CLINICAL_XML | Procedures | clinical_entry:332
+ |  | CLINICAL_XML | Procedures | clinical_entry:333
+ |  | CLINICAL_XML | Procedures | clinical_entry:334
+ |  | CLINICAL_XML | Procedures | clinical_entry:335
+ |  | CLINICAL_XML | Procedures | clinical_entry:336
+ |  | CLINICAL_XML | Social History | clinical_entry:523
+ |  | CLINICAL_XML | Social History | clinical_entry:524
+ |  | CLINICAL_XML | Social History | clinical_entry:525
+ |  | CLINICAL_XML | Patient Care team information | clinical_entry:555
+ |  | CLINICAL_XML | Patient Care team information | clinical_entry:556
+ |  | CLINICAL_XML | Insurance Providers | clinical_entry:558
+2016-06-07 |  | CLINICAL_XML | Immunizations | clinical_entry:14
+2016-06-07 |  | CLINICAL_XML | Immunizations | clinical_entry:15
+2019-09-06 | 02:41:57 | CLINICAL_XML | Social History | clinical_entry:526
+2020-09-21 |  | DOCKET | Application And Order For Appointment of Guardian Ad Litem for Laura E. | documents_filed:101
+2020-09-21 |  | DOCKET | Civil Case Cover Sheet | documents_filed:102
+2020-09-21 |  | DOCKET | Complaint | documents_filed:103
+2020-09-21 |  | DOCKET | Notice of Case Assignment - Unlimited Civil Case | documents_filed:104
+2020-09-21 |  | DOCKET | Complaint; Filed by: Laura Alcaraz (Plaintiff); Laura Elisa Rodriguez (Plaintiff); As to: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:243
+2020-09-21 |  | DOCKET | Civil Case Cover Sheet; Filed by: Laura Alcaraz (Plaintiff); Laura Elisa Rodriguez (Plaintiff); As to: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:244
+2020-09-21 |  | DOCKET | Notice of Case Assignment - Unlimited Civil Case; Filed by: Clerk | register_of_actions:245
+2020-09-21 |  | DOCKET | Updated -- Application And Order For Appointment of Guardian Ad Litem for Laura E.: Status Date changed from 09/28/2020 to 09/21/2020 | register_of_actions:246
+2020-09-21 |  | DOCKET | Application And Order For Appointment of Guardian Ad Litem for Laura E. Signed and Filed by: Laura Alcaraz (Plaintiff); Laura Elisa Rodriguez (Plaintiff); As to: Laura Elisa Rodriguez (Plaintiff) | register_of_actions:247
+2020-09-22 |  | DOCKET | Case assigned to Hon. Kristin S. Escalante in Department 29 Spring Street Courthouse | register_of_actions:239
+2020-09-22 |  | DOCKET | Final Status Conference scheduled for 03/07/2022 at 10:00 AM in Spring Street Courthouse at Department 29 | register_of_actions:240
+2020-09-22 |  | DOCKET | Non-Jury Trial scheduled for 03/21/2022 at 08:30 AM in Spring Street Courthouse at Department 29 | register_of_actions:241
+2020-09-22 |  | DOCKET | Order to Show Cause Re: Dismissal scheduled for 09/18/2023 at 08:30 AM in Spring Street Courthouse at Department 29 | register_of_actions:242
+2020-09-28 |  | CROSS_SOURCE | Guardian ad litem appointment | CIV-010 in prior conversation
+2020-09-28 |  | DOCKET | Updated -- Application And Order For Appointment of Guardian Ad Litem for Laura E.: Status Date changed from 09/21/2020 to 09/28/2020; Result Date changed from 09/28/2020 to 09/28/2020; As To Parties changed from Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) to Laura Elisa Rodriguez (Plaintiff) | register_of_actions:236
+2020-09-28 |  | DOCKET | The case is placed in special status of: Appointment of Guardian Ad Litem | register_of_actions:237
+2020-09-28 |  | DOCKET | Updated -- Application And Order For Appointment of Guardian Ad Litem for Laura E.: Filed By: Laura Alcaraz (Plaintiff),Laura Elisa Rodriguez (Plaintiff); Result: Granted; Result Date: 09/28/2020 | register_of_actions:238
+2020-10-05 |  | DOCKET | Certificate of Mailing for [PI General Order] | documents_filed:99
+2020-10-05 |  | DOCKET | PI General Order | documents_filed:100
+2020-10-05 |  | DOCKET | PI General Order; Filed by: Clerk | register_of_actions:234
+2020-10-05 |  | DOCKET | Certificate of Mailing for [PI General Order]; Filed by: Clerk | register_of_actions:235
+2020-10-21 |  | DOCKET | Summons on Complaint | documents_filed:98
+2020-10-21 |  | DOCKET | Summons on Complaint; Issued and Filed by: Laura Alcaraz (Plaintiff); Laura Elisa Rodriguez (Plaintiff); As to: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:233
+2020-10-27 |  | DOCKET | Proof of Personal Service | documents_filed:97
+2020-10-27 |  | DOCKET | Proof of Personal Service; Filed by: Laura Alcaraz (Plaintiff); As to: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant); Service Date: 10/22/2020; Service Cost: 78.91; Service Cost Waived: No | register_of_actions:232
+2020-11-20 |  | DOCKET | Answer | documents_filed:95
+2020-11-20 |  | DOCKET | Demand for Jury Trial | documents_filed:96
+2020-11-20 |  | DOCKET | Answer; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant); As to: Laura Alcaraz (Plaintiff); Laura Elisa Rodriguez (Plaintiff) | register_of_actions:230
+2020-11-20 |  | DOCKET | Demand for Jury Trial; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:231
+2021-01-22 |  | DOCKET | Motion to Quash Defendant's Subpoenas to Providence Holy Cross Medical Center and Olive View UCLA Medical Center for Plaintiffs' Medical, Billing, Radiological, and Insurance Records | documents_filed:93
+2021-01-22 |  | DOCKET | Separate Statement | documents_filed:94
+2021-01-22 |  | DOCKET | Motion to Quash; Filed by: Laura Alcaraz (Plaintiff) | register_of_actions:228
+2021-01-22 |  | DOCKET | Separate Statement; Filed by: Laura Alcaraz (Plaintiff) | register_of_actions:229
+2021-01-25 |  | DOCKET | Updated -- Motion to Quash DEFENDANT?S SUBPOENAS FOR PLAINTIFFS? MEDICAL, BILLING, RADIOLOGICAL, AND INSURANCE RECORDS;: Name Extension: DEFENDANT?S SUBPOENAS FOR PLAINTIFFS? MEDICAL, BILLING, RADIOLOGICAL, AND INSURANCE RECORDS;; As To Parties: removed | register_of_actions:226
+2021-01-25 |  | DOCKET | Hearing on Motion to Quash Plaintiffs' Motion to Quash Defendant's Subpoenas for Plaintiffs' Records scheduled for 02/24/2021 at 01:30 PM in Spring Street Courthouse at Department 29 | register_of_actions:227
+2021-02-05 |  | DOCKET | Opposition Defendant's Oposition to Plaintiffs' Motion to Quash Defendant's Subpoenas for Plaintiff's Medical, Billing, Radiological and Insurance Records | documents_filed:92
+2021-02-05 |  | DOCKET | Opposition Defendant's Oposition to Plaintiffs' Motion to Quash Defendant's Subpoenas for Plaintiff's Medical, Billing, Radiological and Insurance Records; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:225
+2021-02-17 |  | DOCKET | Reply Plaintiff Laura Rodriguez Reply To Defendants Opposition To Plaintiffs Motion To Quash Or Modify Defendants Subpoena For The Production Of Medical Records Served On Third Parties | documents_filed:91
+2021-02-17 |  | DOCKET | Reply Plaintiff Laura Rodriguez Reply To Defendants Opposition To Plaintiffs Motion To Quash Or Modify Defendants Subpoena For The Production Of Medical Records Served On Third Parties; Filed by: Laura Alcaraz (Plaintiff); Laura Elisa Rodriguez (Plaintiff) | register_of_actions:224
+2021-02-18 |  | DOCKET | Updated -- Motion to Quash Defendant's Subpoenas to Providence Holy Cross Medical Center and Olive View UCLA Medical Center for Plaintiffs' Medical, Billing, Radiological, and Insurance Records: Name Extension changed from DEFENDANT?S SUBPOENAS FOR PLAINTIFFS? MEDICAL, BILLING, RADIOLOGICAL, AND INSURANCE RECORDS; to Defendant's Subpoenas to Providence Holy Cross Medical Center and Olive View UCLA Medical Center for Plaintiffs' Medical, Billing, Radiological, and Insurance Records; As To Parties: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:219
+2021-02-18 |  | DOCKET | Updated -- Gabriel Horace Wainfeld, Esq. (Attorney): Organization Name changed from Law Offices of York & Wainfeld to York & Wainfeld; Name Suffix: Esq. Middle Name: Horace | register_of_actions:220
+2021-02-18 |  | DOCKET | Address for Gabriel Horace Wainfeld, Esq. (Attorney) updated | register_of_actions:221
+2021-02-18 |  | DOCKET | Updated -- Arutyun Harry Nalbandyan, Esq. (Attorney): Organization Name changed from LEVIN & NALBANDYAN to Levin & Nalbandyan, LLP; Name Suffix: Esq. | register_of_actions:222
+2021-02-18 |  | DOCKET | Address for Arutyun Harry Nalbandyan, Esq. (Attorney) updated | register_of_actions:223
+2021-02-24 | 13:30:00 | DOCKET | Hearing on Motion to Quash | past_proceedings:77
+2021-02-24 |  | DOCKET | Minute Order (Hearing on Plaintiff's Motion to Quash Defendant's Subpoenas ...) | documents_filed:90
+2021-02-24 |  | DOCKET | Updated -- Motion to Quash Defendant's Subpoenas to Providence Holy Cross Medical Center and Olive View UCLA Medical Center for Plaintiffs' Medical, Billing, Radiological, and Insurance Records: Filed By: Laura Alcaraz (Plaintiff); Result: Granted; Result Date: 02/24/2021 | register_of_actions:216
+2021-02-24 |  | DOCKET | Minute Order (Hearing on Plaintiff's Motion to Quash Defendant's Subpoenas ...) | register_of_actions:217
+2021-02-24 |  | DOCKET | Hearing on Motion to Quash Defendant's Subpoenas Issued to Providence Holy Cross Medical Center and Olive View UCLA Medical Center for Plaintiffs' Medical, Billing, Radiological, and Insurance Records scheduled for 02/24/2021 at 01:30 PM in Spring Street Courthouse at Department 29 updated: Result Date to 02/24/2021; Result Type to Held - Motion Granted | register_of_actions:218
+2021-04-29 |  | DOCKET | Motion to Compel Further Discovery Responses TO COMPEL DEFENDANT LOS ANGELES COUNTY METROPOLITAN AUTHORITY?S FURTHER RESPONSES TO PLAINTIFF?S REQUEST FOR SPECIAL INTERROGATORIES, SET ONE; | documents_filed:84
+2021-04-29 |  | DOCKET | Motion to Compel Further Discovery Responses TO COMPEL DEFENDANTS LOS ANGELES COUNTY METROPOLITAN AUTHORITY?S RESPONSES TO PLAINTIFF?S REQUEST FOR PRODUCTION, SET ONE; | documents_filed:85
+2021-04-29 |  | DOCKET | Motion to Deem RFA's Admitted FOR ORDER DEEMING ADMITTED TRUTH OF FACTS AND GENUINENESS OF DOCUMENTS AS TO DEFENDANT RESPONSES TO PLAINTIFF?S REQUEST FOR ADMISSIONS, SET ONE; | documents_filed:86
+2021-04-29 |  | DOCKET | Separate Statement | documents_filed:87
+2021-04-29 |  | DOCKET | Separate Statement | documents_filed:88
+2021-04-29 |  | DOCKET | Separate Statement | documents_filed:89
+2021-04-29 |  | DOCKET | Motion to Compel Further Discovery Responses; Filed by: Laura Elisa Rodriguez (Plaintiff); As to: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:210
+2021-04-29 |  | DOCKET | Separate Statement; Filed by: Laura Elisa Rodriguez (Plaintiff) | register_of_actions:211
+2021-04-29 |  | DOCKET | Motion to Compel Further Discovery Responses; Filed by: Laura Elisa Rodriguez (Plaintiff); As to: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:212
+2021-04-29 |  | DOCKET | Separate Statement; Filed by: Laura Elisa Rodriguez (Plaintiff) | register_of_actions:213
+2021-04-29 |  | DOCKET | Motion to Deem RFA's Admitted; Filed by: Laura Elisa Rodriguez (Plaintiff); As to: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:214
+2021-04-29 |  | DOCKET | Separate Statement; Filed by: Laura Elisa Rodriguez (Plaintiff) | register_of_actions:215
+2021-04-30 |  | DOCKET | Updated -- Motion to Compel Further Discovery Responses TO COMPEL DEFENDANT LOS ANGELES COUNTY METROPOLITAN AUTHORITY?S FURTHER RESPONSES TO PLAINTIFF?S REQUEST FOR SPECIAL INTERROGATORIES, SET ONE;: Name Extension: TO COMPEL DEFENDANT LOS ANGELES COUNTY METROPOLITAN AUTHORITY?S FURTHER RESPONSES TO PLAINTIFF?S REQUEST FOR SPECIAL INTERROGATORIES, SET ONE;; As To Parties changed from Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) to Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:203
+2021-04-30 |  | DOCKET | Updated -- Motion to Compel Further Discovery Responses TO COMPEL DEFENDANT LOS ANGELES COUNTY METROPOLITAN AUTHORITY?S FURTHER RESPONSES TO PLAINTIFF?S REQUEST FOR SPECIAL INTERROGATORIES, SET ONE;: As To Parties changed from Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) to Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:204
+2021-04-30 |  | DOCKET | Updated -- Motion to Compel Further Discovery Responses TO COMPEL DEFENDANTS LOS ANGELES COUNTY METROPOLITAN AUTHORITY?S RESPONSES TO PLAINTIFF?S REQUEST FOR PRODUCTION, SET ONE;: Name Extension: TO COMPEL DEFENDANTS LOS ANGELES COUNTY METROPOLITAN AUTHORITY?S RESPONSES TO PLAINTIFF?S REQUEST FOR PRODUCTION, SET ONE;; As To Parties changed from Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) to Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:205
+2021-04-30 |  | DOCKET | Updated -- Motion to Deem RFA's Admitted FOR ORDER DEEMING ADMITTED TRUTH OF FACTS AND GENUINENESS OF DOCUMENTS AS TO DEFENDANT RESPONSES TO PLAINTIFF?S REQUEST FOR ADMISSIONS, SET ONE;: Name Extension: FOR ORDER DEEMING ADMITTED TRUTH OF FACTS AND GENUINENESS OF DOCUMENTS AS TO DEFENDANT RESPONSES TO PLAINTIFF?S REQUEST FOR ADMISSIONS, SET ONE;; As To Parties changed from Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) to Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:206
+2021-04-30 |  | DOCKET | Hearing on Motion to Compel Further Discovery Responses scheduled for 09/01/2021 at 10:00 AM in Spring Street Courthouse at Department 29 | register_of_actions:207
+2021-04-30 |  | DOCKET | Hearing on Motion to Compel Further Discovery Responses scheduled for 09/01/2021 at 10:00 AM in Spring Street Courthouse at Department 29 | register_of_actions:208
+2021-04-30 |  | DOCKET | Hearing on Motion to Deem Request for Admissions Admitted scheduled for 09/13/2021 at 08:30 AM in Spring Street Courthouse at Department 29 | register_of_actions:209
+2021-06-14 |  | DOCKET | Informal Discovery Conference Form for Personal Injury Courts | documents_filed:83
+2021-06-14 |  | DOCKET | Informal Discovery Conference Form for Personal Injury Courts; Filed by: Laura Elisa Rodriguez (Plaintiff) | register_of_actions:202
+2021-06-15 |  | DOCKET | Informal Discovery Conference (IDC) scheduled for 07/06/2021 at 11:00 AM in Spring Street Courthouse at Department 29 | register_of_actions:201
+2021-06-21 |  | DOCKET | Informal Discovery Conference Form for Personal Injury Courts | documents_filed:82
+2021-06-21 |  | DOCKET | Informal Discovery Conference Form for Personal Injury Courts; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:200
+2021-06-30 |  | CLINICAL_XML | Immunizations | clinical_entry:13
+2021-07-06 | 11:00:00 | DOCKET | Informal Discovery Conference (IDC) | past_proceedings:76
+2021-07-06 |  | DOCKET | Minute Order (Informal Discovery Conference (IDC)) | documents_filed:81
+2021-07-06 |  | DOCKET | Informal Discovery Conference (IDC) scheduled for 07/07/2021 at 11:00 AM in Spring Street Courthouse at Department 29 | register_of_actions:197
+2021-07-06 |  | DOCKET | Minute Order (Informal Discovery Conference (IDC)) | register_of_actions:198
+2021-07-06 |  | DOCKET | Reset - Court Unavailable, Informal Discovery Conference (IDC) scheduled for 07/06/2021 at 11:00 AM in Spring Street Courthouse at Department 29 Not Held - Continued - Court's Motion was rescheduled to 07/07/2021 11:00 AM | register_of_actions:199
+2021-07-07 | 11:00:00 | DOCKET | Informal Discovery Conference (IDC) | past_proceedings:75
+2021-07-07 |  | DOCKET | Minute Order (Informal Discovery Conference (IDC)) | documents_filed:80
+2021-07-07 |  | DOCKET | Informal Discovery Conference (IDC) scheduled for 08/06/2021 at 11:30 AM in Spring Street Courthouse at Department 29 | register_of_actions:194
+2021-07-07 |  | DOCKET | Minute Order (Informal Discovery Conference (IDC)) | register_of_actions:195
+2021-07-07 |  | DOCKET | On the Court's own motion, Informal Discovery Conference (IDC) scheduled for 07/07/2021 at 11:00 AM in Spring Street Courthouse at Department 29 Held - Continued was rescheduled to 08/06/2021 11:30 AM | register_of_actions:196
+2021-07-21 |  | DOCKET | Informal Discovery Conference | documents_filed:79
+2021-07-21 |  | DOCKET | Informal Discovery Conference; Filed by: Laura Elisa Rodriguez (Plaintiff) | register_of_actions:193
+2021-07-23 |  | DOCKET | Informal Discovery Conference Form for Personal Injury Courts | documents_filed:78
+2021-07-23 |  | DOCKET | Informal Discovery Conference Form for Personal Injury Courts; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:192
+2021-08-06 | 11:30:00 | DOCKET | Informal Discovery Conference (IDC) | past_proceedings:74
+2021-08-06 |  | DOCKET | Minute Order (Informal Discovery Conference (IDC)) | documents_filed:77
+2021-08-06 |  | DOCKET | Informal Discovery Conference (IDC) scheduled for 08/13/2021 at 11:00 AM in Spring Street Courthouse at Department 29 | register_of_actions:189
+2021-08-06 |  | DOCKET | Minute Order (Informal Discovery Conference (IDC)) | register_of_actions:190
+2021-08-06 |  | DOCKET | On the Court's own motion, Informal Discovery Conference (IDC) scheduled for 08/06/2021 at 11:30 AM in Spring Street Courthouse at Department 29 Not Held - Continued - Court's Motion was rescheduled to 08/13/2021 11:00 AM | register_of_actions:191
+2021-08-13 | 11:00:00 | DOCKET | Informal Discovery Conference (IDC) | past_proceedings:73
+2021-08-13 |  | DOCKET | Minute Order (Informal Discovery Conference (IDC)) | documents_filed:76
+2021-08-13 |  | DOCKET | Hearing on Motion to Compel Further Discovery Responses scheduled for 09/14/2021 at 08:30 AM in Spring Street Courthouse at Department 29 | register_of_actions:181
+2021-08-13 |  | DOCKET | Hearing on Motion to Compel Further Discovery Responses scheduled for 09/14/2021 at 08:30 AM in Spring Street Courthouse at Department 29 | register_of_actions:182
+2021-08-13 |  | DOCKET | Hearing on Motion to Deem Request for Admissions Admitted scheduled for 09/14/2021 at 08:30 AM in Spring Street Courthouse at Department 29 | register_of_actions:183
+2021-08-13 |  | DOCKET | Minute Order (Informal Discovery Conference (IDC)) | register_of_actions:184
+2021-08-13 |  | DOCKET | Informal Discovery Conference (IDC) scheduled for 08/13/2021 at 11:00 AM in Spring Street Courthouse at Department 29 updated: Result Date to 08/13/2021; Result Type to Held | register_of_actions:185
+2021-08-13 |  | DOCKET | On the Court's own motion, Hearing on Motion to Compel Further Discovery Responses scheduled for 09/01/2021 at 10:00 AM in Spring Street Courthouse at Department 29 Not Held - Continued - Court's Motion was rescheduled to 09/14/2021 08:30 AM | register_of_actions:186
+2021-08-13 |  | DOCKET | On the Court's own motion, Hearing on Motion to Compel Further Discovery Responses scheduled for 09/01/2021 at 10:00 AM in Spring Street Courthouse at Department 29 Not Held - Continued - Court's Motion was rescheduled to 09/14/2021 08:30 AM | register_of_actions:187
+2021-08-13 |  | DOCKET | On the Court's own motion, Hearing on Motion to Deem Request for Admissions Admitted scheduled for 09/13/2021 at 08:30 AM in Spring Street Courthouse at Department 29 Not Held - Continued - Court's Motion was rescheduled to 09/14/2021 08:30 AM | register_of_actions:188
+2021-08-30 |  | DOCKET | Opposition Opposition to Plaintiff's Motion to Compel Defendant Los Angeles County Metropolitan Authority's Responses to Plaintiff's Request for Production, Set One | documents_filed:73
+2021-08-30 |  | DOCKET | Opposition Opposition to Plaintiff's Motion to Compel Further Responses to Plaintiff's Special Interrogatories, Set One | documents_filed:74
+2021-08-30 |  | DOCKET | Opposition Opposition to Plaintiff's Motion to Deem Admitted Request for Admissions, Set One | documents_filed:75
+2021-08-30 |  | DOCKET | Opposition Opposition to Plaintiff's Motion to Compel Further Responses to Plaintiff's Special Interrogatories, Set One; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:178
+2021-08-30 |  | DOCKET | Opposition Opposition to Plaintiff's Motion to Compel Defendant Los Angeles County Metropolitan Authority's Responses to Plaintiff's Request for Production, Set One; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:179
+2021-08-30 |  | DOCKET | Opposition Opposition to Plaintiff's Motion to Deem Admitted Request for Admissions, Set One; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:180
+2021-09-01 | 10:00:00 | DOCKET | Hearing on Motion to Compel Further Discovery Responses | past_proceedings:71
+2021-09-01 | 10:00:00 | DOCKET | Hearing on Motion to Compel Further Discovery Responses | past_proceedings:72
+2021-09-02 |  | CLINICAL_XML | Immunizations | clinical_entry:12
+2021-09-07 |  | DOCKET | Notice of Taking Motions Off-Calendar | documents_filed:72
+2021-09-07 |  | DOCKET | Notice of Taking Motions Off-Calendar; Filed by: Laura Alcaraz (Plaintiff); Laura Elisa Rodriguez (Plaintiff); As to: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:174
+2021-09-07 |  | DOCKET | Pursuant to the request of moving party, Hearing on Motion to Deem Request for Admissions Admitted scheduled for 09/14/2021 at 08:30 AM in Spring Street Courthouse at Department 29 Not Held - Taken Off Calendar by Party on 09/07/2021 | register_of_actions:175
+2021-09-07 |  | DOCKET | Pursuant to the request of moving party, Hearing on Motion to Compel Further Discovery Responses scheduled for 09/14/2021 at 08:30 AM in Spring Street Courthouse at Department 29 Not Held - Taken Off Calendar by Party on 09/07/2021 | register_of_actions:176
+2021-09-07 |  | DOCKET | Pursuant to the request of moving party, Hearing on Motion to Compel Further Discovery Responses scheduled for 09/14/2021 at 08:30 AM in Spring Street Courthouse at Department 29 Not Held - Taken Off Calendar by Party on 09/07/2021 | register_of_actions:177
+2021-09-13 | 08:30:00 | DOCKET | Hearing on Motion to Deem Request for Admissions Admitted | past_proceedings:70
+2021-09-14 | 08:30:00 | DOCKET | Hearing on Motion to Compel Further Discovery Responses | past_proceedings:67
+2021-09-14 | 08:30:00 | DOCKET | Hearing on Motion to Compel Further Discovery Responses | past_proceedings:68
+2021-09-14 | 08:30:00 | DOCKET | Hearing on Motion to Deem Request for Admissions Admitted | past_proceedings:69
+2021-09-21 |  | DOCKET | Notice of Posting of Jury Fees | documents_filed:71
+2021-09-21 |  | DOCKET | Notice of Posting of Jury Fees; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:173
+2021-11-19 | 03:52:07 | CLINICAL_XML | Problem List | clinical_entry:321
+2021-11-20 | 07:28:16 | CLINICAL_XML | Problem List | clinical_entry:311
+2021-11-20 | 07:28:23 | CLINICAL_XML | Problem List | clinical_entry:309
+2021-11-20 | 07:28:35 | CLINICAL_XML | Problem List | clinical_entry:310
+2021-11-20 | 07:28:41 | CLINICAL_XML | Problem List | clinical_entry:313
+2021-11-20 | 07:28:59 | CLINICAL_XML | Problem List | clinical_entry:317
+2021-11-20 | 07:29:15 | CLINICAL_XML | Problem List | clinical_entry:315
+2021-11-20 | 07:29:24 | CLINICAL_XML | Problem List | clinical_entry:325
+2021-11-22 | 20:03:00 | CLINICAL_XML | Procedures | clinical_entry:329
+2021-11-23 | 13:50:00 | CLINICAL_XML | Procedures | clinical_entry:328
+2021-11-23 | 14:20:00 | CLINICAL_XML | Implantable Device List | clinical_entry:528
+2022-01-13 | 11:31:00 | CLINICAL_XML | Problem List | clinical_entry:322
+2022-01-20 |  | DOCKET | Ex Parte Application to Continue Trial | documents_filed:70
+2022-01-20 |  | DOCKET | Ex Parte Application to Continue Trial; Filed by: Laura Alcaraz (Plaintiff); Laura Elisa Rodriguez (Plaintiff); As to: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:171
+2022-01-20 |  | DOCKET | Hearing on Ex Parte Application to Continue Trial scheduled for 01/21/2022 at 08:30 AM in Spring Street Courthouse at Department 29 | register_of_actions:172
+2022-01-21 | 08:30:00 | DOCKET | Hearing on Ex Parte Application | past_proceedings:66
+2022-01-21 |  | DOCKET | Minute Order (Hearing on Ex Parte Application to Continue Trial) | documents_filed:69
+2022-01-21 |  | DOCKET | Updated -- Ex Parte Application to Continue Trial: Filed By: Laura Alcaraz (Plaintiff),Laura Elisa Rodriguez (Plaintiff); Result: Denied; Result Date: 01/21/2022 | register_of_actions:168
+2022-01-21 |  | DOCKET | Minute Order (Hearing on Ex Parte Application to Continue Trial) | register_of_actions:169
+2022-01-21 |  | DOCKET | Hearing on Ex Parte Application to Continue Trial scheduled for 01/21/2022 at 08:30 AM in Spring Street Courthouse at Department 29 updated: Result Date to 01/21/2022; Result Type to Held | register_of_actions:170
+2022-01-24 |  | DOCKET | Motion to Continue Trial Date | documents_filed:68
+2022-01-24 |  | DOCKET | Motion to Continue Trial Date; Filed by: Laura Alcaraz (Plaintiff) | register_of_actions:166
+2022-01-24 |  | DOCKET | Hearing on Motion to Continue Trial scheduled for 02/17/2022 at 01:30 PM in Spring Street Courthouse at Department 29 | register_of_actions:167
+2022-02-09 |  | DOCKET | [Proposed Order] and Stipulation to Continue Trial, FSC (and Related Motion/Discovery Dates) Personal Injury Courts Only (Central District) | documents_filed:67
+2022-02-09 |  | DOCKET | [Proposed Order] and Stipulation to Continue Trial, FSC (and Related Motion/Discovery Dates) Personal Injury Courts Only (Central District); Signed and Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant); As to: Laura Alcaraz (Plaintiff); Laura Elisa Rodriguez (Plaintiff) | register_of_actions:162
+2022-02-09 |  | DOCKET | Pursuant to written stipulation, Final Status Conference scheduled for 03/07/2022 at 10:00 AM in Spring Street Courthouse at Department 29 Not Held - Advanced and Continued - by Court was rescheduled to 11/30/2022 10:00 AM | register_of_actions:163
+2022-02-09 |  | DOCKET | Pursuant to written stipulation, Non-Jury Trial scheduled for 03/21/2022 at 08:30 AM in Spring Street Courthouse at Department 29 Not Held - Advanced and Continued - by Court was rescheduled to 12/14/2022 08:30 AM | register_of_actions:164
+2022-02-09 |  | DOCKET | Hearing on Motion to Continue Trial scheduled for 02/17/2022 at 01:30 PM in Spring Street Courthouse at Department 29 Not Held - Vacated by Court on 02/09/2022 | register_of_actions:165
+2022-02-10 |  | DOCKET | Notice of Continuance of Trial | documents_filed:66
+2022-02-10 |  | DOCKET | Notice of Continuance of Trial; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant); As to: Laura Alcaraz (Plaintiff); Laura Elisa Rodriguez (Plaintiff) | register_of_actions:161
+2022-02-17 | 13:30:00 | DOCKET | Hearing on Motion to Continue Trial | past_proceedings:65
+2022-03-07 | 10:00:00 | DOCKET | Final Status Conference | past_proceedings:64
+2022-03-21 | 08:30:00 | DOCKET | Non-Jury Trial | past_proceedings:63
+2022-06-08 | 16:28:56 | CLINICAL_XML | Problem List | clinical_entry:308
+2022-06-08 | 21:26:30 | CLINICAL_XML | Problem List | clinical_entry:319
+2022-06-08 | 21:28:15 | CLINICAL_XML | Problem List | clinical_entry:327
+2022-06-08 | 21:30:18 | CLINICAL_XML | Problem List | clinical_entry:316
+2022-06-08 | 21:30:29 | CLINICAL_XML | Problem List | clinical_entry:320
+2022-06-08 | 21:32:26 | CLINICAL_XML | Problem List | clinical_entry:312
+2022-07-16 | 11:33:06 | CLINICAL_XML | Problem List | clinical_entry:318
+2022-07-17 | 15:31:41 | CLINICAL_XML | Problem List | clinical_entry:326
+2022-09-30 |  | DOCKET | Stipulation and Order and Good Cause to Continue Trial | documents_filed:65
+2022-09-30 |  | DOCKET | Stipulation and Order and Good Cause to Continue Trial; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant); As to: Laura Alcaraz (Plaintiff); Laura Elisa Rodriguez (Plaintiff) | register_of_actions:160
+2022-10-03 |  | DOCKET | Order to continue trial | documents_filed:64
+2022-10-03 |  | DOCKET | Order to continue trial; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant); As to: Laura Alcaraz (Plaintiff) | register_of_actions:157
+2022-10-03 |  | DOCKET | Pursuant to written stipulation, Non-Jury Trial scheduled for 12/14/2022 at 08:30 AM in Spring Street Courthouse at Department 29 Not Held - Continued - Stipulation was rescheduled to 10/17/2023 08:30 AM | register_of_actions:158
+2022-10-03 |  | DOCKET | Pursuant to written stipulation, Final Status Conference scheduled for 11/30/2022 at 10:00 AM in Spring Street Courthouse at Department 29 Not Held - Continued - Stipulation was rescheduled to 10/03/2023 10:00 AM | register_of_actions:159
+2022-10-04 |  | DOCKET | Notice of Continuance of Trial | documents_filed:63
+2022-10-04 |  | DOCKET | Notice of Continuance of Trial; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant); As to: Laura Alcaraz (Plaintiff); Laura Elisa Rodriguez (Plaintiff) | register_of_actions:156
+2022-11-30 | 10:00:00 | DOCKET | Final Status Conference | past_proceedings:62
+2022-12-14 | 08:30:00 | DOCKET | Non-Jury Trial | past_proceedings:61
+2022-12-21 |  | DOCKET | Pursuant to the request of moving party, Hearing on Motion to Compel Plaintiff Laura Alcaraz's Deposition scheduled for 03/27/2023 at 01:30 PM in Spring Street Courthouse at Department 29 Not Held - Taken Off Calendar by Party on 12/21/2022 | register_of_actions:155
+2023-03-01 |  | DOCKET | Motion to Compel Plaintiff Laura Elisa Rodrigues Attendance at Her Deposition; Defendants Request for Monetary Sanctions in the Amount of 1125; | documents_filed:62
+2023-03-01 |  | DOCKET | Motion to Compel Motion to Compel Plaintiff Laura Elisa Rodriguezs Attendance at Her Deposition; Defendants Request for Monetary Sanctions in the Amount of 1125; Memorandum of Points and Authorities; Declaration of Joshua B. Adelpour; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant); As to: Laura Elisa Rodriguez (Plaintiff) | register_of_actions:152
+2023-03-01 |  | DOCKET | Updated -- Motion to Compel Plaintiff Laura Elisa Rodrigues Attendance at Her Deposition; Defendants Request for Monetary Sanctions in the Amount of 1125;: Name Extension changed from Motion to Compel Plaintiff Laura Elisa Rodriguezs Attendance at Her Deposition; Defendants Request for Monetary Sanctions in the Amount of 1125; Memorandum of Points and Authorities; Declaration of Joshua B. Adelpour to Plaintiff Laura Elisa Rodrigues Attendance at Her Deposition; Defendants Request for Monetary Sanctions in the Amount of 1125; ; As To Parties changed from Laura Elisa Rodriguez (Plaintiff) to Laura Elisa Rodriguez (Plaintiff) | register_of_actions:153
+2023-03-01 |  | DOCKET | Hearing on Motion to Compel Plaintiff Laura Elisa Rodriguez's Deposition scheduled for 03/27/2023 at 01:30 PM in Spring Street Courthouse at Department 29 | register_of_actions:154
+2023-03-14 |  | DOCKET | Opposition Plaintiff Laura Rodriguez's Opposition to Defendant's Motiont o Compel Deposition of Plaintiff: request for Denial of Monetary sanctions against Plainitff and Plaintiff's Counsel | documents_filed:61
+2023-03-14 |  | DOCKET | Opposition Plaintiff Laura Rodriguez's Opposition to Defendant's Motiont o Compel Deposition of Plaintiff: request for Denial of Monetary sanctions against Plainitff and Plaintiff's Counsel; Filed by: Laura Elisa Rodriguez (Plaintiff) | register_of_actions:151
+2023-03-27 | 13:30:00 | DOCKET | Hearing on Motion to Compel | past_proceedings:59
+2023-03-27 | 13:30:00 | DOCKET | Hearing on Motion to Compel | past_proceedings:60
+2023-03-27 |  | DOCKET | Minute Order (Hearing on Motion to Compel Plaintiff Laura Elisa Rodriguez's...) | documents_filed:60
+2023-03-27 |  | DOCKET | Hearing on Motion to Compel Plaintiff Laura Elisa Rodriguez's Deposition scheduled for 03/27/2023 at 01:30 PM in Spring Street Courthouse at Department 29 updated: Result Date to 03/27/2023; Result Type to Held - Motion Denied | register_of_actions:148
+2023-03-27 |  | DOCKET | Updated -- Motion to Compel Plaintiff Laura Elisa Rodrigues Attendance at Her Deposition; Defendants Request for Monetary Sanctions in the Amount of 1125;: Filed By: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant); Result: Granted in Part ; Result Date: 03/27/2023 | register_of_actions:149
+2023-03-27 |  | DOCKET | Minute Order (Hearing on Motion to Compel Plaintiff Laura Elisa Rodriguez's...) | register_of_actions:150
+2023-03-29 |  | DOCKET | Notice of Ruling | documents_filed:59
+2023-03-29 |  | DOCKET | Notice of Ruling; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:147
+2023-06-22 |  | DOCKET | Notice of Change of Address or Other Contact Information | documents_filed:58
+2023-06-22 |  | DOCKET | Notice of Change of Address or Other Contact Information; Filed by: Arutyun Harry Nalbandyan, Esq. (Attorney) | register_of_actions:146
+2023-06-23 |  | DOCKET | Address for Arutyun Harry Nalbandyan, Esq. (Attorney) updated | register_of_actions:145
+2023-07-13 |  | DOCKET | Pursuant to the request of moving party, Hearing on Motion to Continue Trial scheduled for 08/09/2023 at 01:30 PM in Spring Street Courthouse at Department 29 Not Held - Rescheduled by Party was rescheduled to 08/24/2023 01:30 PM | register_of_actions:144
+2023-07-31 |  | DOCKET | Motion to Continue Trial Date By Defendants | documents_filed:57
+2023-07-31 |  | DOCKET | Motion to Continue Trial Date; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:143
+2023-08-01 |  | DOCKET | Updated -- Motion to Continue Trial Date By Defendants: Name Extension: By Defendants ; As To Parties: | register_of_actions:141
+2023-08-01 |  | DOCKET | Hearing on Motion to Continue Trial scheduled for 08/24/2023 at 01:30 PM in Spring Street Courthouse at Department 29 | register_of_actions:142
+2023-08-09 | 13:30:00 | DOCKET | Hearing on Motion to Continue Trial | past_proceedings:58
+2023-08-12 | 11:57:32 | CLINICAL_XML | Problem List | clinical_entry:323
+2023-08-13 | 11:35:13 | CLINICAL_XML | Problem List | clinical_entry:314
+2023-08-24 | 13:30:00 | DOCKET | Hearing on Motion to Continue Trial | past_proceedings:57
+2023-08-24 |  | DOCKET | Minute Order (Hearing on Motion to Continue Trial) | documents_filed:55
+2023-08-24 |  | DOCKET | Notice of Ruling | documents_filed:56
+2023-08-24 |  | DOCKET | Updated -- Motion to Continue Trial Date By Defendants: Filed By: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant); Result: Granted ; Result Date: 08/24/2023 | register_of_actions:133
+2023-08-24 |  | DOCKET | Notice of Ruling; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:134
+2023-08-24 |  | DOCKET | Minute Order (Hearing on Motion to Continue Trial) | register_of_actions:135
+2023-08-24 |  | DOCKET | Hearing on Motion to Continue Trial scheduled for 08/24/2023 at 01:30 PM in Spring Street Courthouse at Department 29 updated: Result Date to 08/24/2023; Result Type to Held - Motion Granted | register_of_actions:136
+2023-08-24 |  | DOCKET | Final Status Conference scheduled for 10/03/2023 at 10:00 AM in Spring Street Courthouse at Department 29 Held - Continued was rescheduled to 01/04/2024 10:00 AM | register_of_actions:137
+2023-08-24 |  | DOCKET | Non-Jury Trial scheduled for 10/17/2023 at 08:30 AM in Spring Street Courthouse at Department 29 Held - Continued was rescheduled to 01/18/2024 08:30 AM | register_of_actions:138
+2023-08-24 |  | DOCKET | Updated -- Event scheduled for 01/18/2024 at 08:30 AM in Spring Street Courthouse at Department 29 Type changed from Non-Jury Trial to Jury Trial | register_of_actions:139
+2023-08-24 |  | DOCKET | Order to Show Cause Re: Dismissal scheduled for 09/18/2023 at 08:30 AM in Spring Street Courthouse at Department 29 Not Held - Taken Off Calendar by Court on 08/24/2023 | register_of_actions:140
+2023-09-11 |  | DOCKET | Pursuant to the request of moving party, Informal Discovery Conference (IDC) scheduled for 10/13/2023 at 11:30 AM in Spring Street Courthouse at Department 29 Not Held - Rescheduled by Party was rescheduled to 11/15/2023 11:00 AM | register_of_actions:132
+2023-09-13 |  | DOCKET | Pursuant to the request of moving party, Hearing on Motion to Compel Plaintiff Laura Elisa Rodriguez's Defense Medical Examination scheduled for 10/06/2023 at 01:30 PM in Spring Street Courthouse at Department 29 Not Held - Rescheduled by Party was rescheduled to 01/31/2024 01:30 PM | register_of_actions:128
+2023-09-13 |  | DOCKET | Pursuant to the request of moving party, Hearing on Motion to Compel Plaintiff Laura Alcaraz's Defense Medical Examination scheduled for 10/06/2023 at 01:30 PM in Spring Street Courthouse at Department 29 Not Held - Rescheduled by Party was rescheduled to 01/31/2024 01:30 PM | register_of_actions:129
+2023-09-13 |  | DOCKET | Pursuant to the request of moving party, Hearing on Motion to Compel Plaintiff Laura Alcaraz's Defense Medical Examination scheduled for 01/31/2024 at 01:30 PM in Spring Street Courthouse at Department 29 Not Held - Rescheduled by Party was rescheduled to 12/11/2023 01:30 PM | register_of_actions:130
+2023-09-13 |  | DOCKET | Pursuant to the request of moving party, Hearing on Motion to Compel Plaintiff Laura Elisa Rodriguez's Defense Medical Examination scheduled for 01/31/2024 at 01:30 PM in Spring Street Courthouse at Department 29 Not Held - Rescheduled by Party was rescheduled to 12/11/2023 01:30 PM | register_of_actions:131
+2023-09-15 |  | DOCKET | Pursuant to the request of moving party, Hearing on Motion to Compel Further Discovery Responses scheduled for 11/02/2023 at 01:30 PM in Spring Street Courthouse at Department 29 Not Held - Rescheduled by Party was rescheduled to 12/08/2023 01:30 PM | register_of_actions:125
+2023-09-15 |  | DOCKET | Pursuant to the request of moving party, Hearing on Motion to Compel Further Discovery Responses scheduled for 10/31/2023 at 01:30 PM in Spring Street Courthouse at Department 29 Not Held - Rescheduled by Party was rescheduled to 12/08/2023 01:30 PM | register_of_actions:126
+2023-09-15 |  | DOCKET | Pursuant to the request of moving party, Hearing on Motion to Compel Further Discovery Responses scheduled for 10/31/2023 at 01:30 PM in Spring Street Courthouse at Department 29 Not Held - Rescheduled by Party was rescheduled to 12/11/2023 01:30 PM | register_of_actions:127
+2023-09-18 | 08:30:00 | DOCKET | Order to Show Cause Re: Dismissal | past_proceedings:56
+2023-10-03 | 10:00:00 | DOCKET | Final Status Conference | past_proceedings:55
+2023-10-06 | 13:30:00 | DOCKET | Hearing on Motion to Compel | past_proceedings:53
+2023-10-06 | 13:30:00 | DOCKET | Hearing on Motion to Compel | past_proceedings:54
+2023-10-13 | 11:30:00 | DOCKET | Informal Discovery Conference (IDC) | past_proceedings:52
+2023-10-17 | 08:30:00 | DOCKET | Non-Jury Trial | past_proceedings:51
+2023-10-20 |  | DOCKET | Informal Discovery Conference Form for Personal Injury Courts | documents_filed:54
+2023-10-20 |  | DOCKET | Informal Discovery Conference Form for Personal Injury Courts; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:123
+2023-10-20 |  | DOCKET | Informal Discovery Conference (IDC) scheduled for 11/15/2023 at 11:00 AM in Spring Street Courthouse at Department 29 | register_of_actions:124
+2023-10-26 |  | DOCKET | Pursuant to the request of moving party, Hearing on Motion to Compel Further Discovery Responses scheduled for 12/11/2023 at 01:30 PM in Spring Street Courthouse at Department 29 Not Held - Rescheduled by Party was rescheduled to 01/03/2024 01:30 PM | register_of_actions:120
+2023-10-26 |  | DOCKET | Pursuant to the request of moving party, Hearing on Motion to Compel Further Discovery Responses scheduled for 12/08/2023 at 01:30 PM in Spring Street Courthouse at Department 29 Not Held - Rescheduled by Party was rescheduled to 01/04/2024 01:30 PM | register_of_actions:121
+2023-10-26 |  | DOCKET | Pursuant to the request of moving party, Hearing on Motion to Compel Further Discovery Responses scheduled for 12/08/2023 at 01:30 PM in Spring Street Courthouse at Department 29 Not Held - Rescheduled by Party was rescheduled to 01/04/2024 01:30 PM | register_of_actions:122
+2023-10-31 | 13:30:00 | DOCKET | Hearing on Motion to Compel Further Discovery Responses | past_proceedings:49
+2023-10-31 | 13:30:00 | DOCKET | Hearing on Motion to Compel Further Discovery Responses | past_proceedings:50
+2023-11-02 | 13:30:00 | DOCKET | Hearing on Motion to Compel Further Discovery Responses | past_proceedings:48
+2023-11-08 |  | DOCKET | Pursuant to the request of moving party, Hearing on Motion to Compel Plaintiff Laura Alcaraz's Defense Medical Examination scheduled for 12/11/2023 at 01:30 PM in Spring Street Courthouse at Department 29 Not Held - Taken Off Calendar by Party on 11/08/2023 | register_of_actions:119
+2023-11-09 |  | DOCKET | Motion to Compel the Defense Medical Examination of Plaintiff Laura Elisa Rodriguez'; Defendant's Request for Monetary Sanctions in The Amount of 1125; | documents_filed:53
+2023-11-09 |  | DOCKET | Motion to Compel the Defense Medical Examination of Plaintiff Laura Elisa Rodriguez'; Defendant's Request for Monetary Sanctions in The Amount of 1125; Memorandum of Points and Authorities; Declaration of Joshua B. Adelpour; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant); As to: Laura Elisa Rodriguez (Plaintiff) | register_of_actions:116
+2023-11-09 |  | DOCKET | Updated -- Motion to Compel the Defense Medical Examination of Plaintiff Laura Elisa Rodriguez'; Defendant's Request for Monetary Sanctions in The Amount of 1125;: Name Extension changed from the Defense Medical Examination of Plaintiff Laura Elisa Rodriguez'; Defendant's Request for Monetary Sanctions in The Amount of 1125; Memorandum of Points and Authorities; Declaration of Joshua B. Adelpour to the Defense Medical Examination of Plaintiff Laura Elisa Rodriguez'; Defendant's Request for Monetary Sanctions in The Amount of 1125; | register_of_actions:117
+2023-11-09 |  | DOCKET | Hearing on Motion to Compel Plaintiff Laura Elisa Rodriguez's Defense Medical Examination scheduled for 12/11/2023 at 01:30 PM in Spring Street Courthouse at Department 29 | register_of_actions:118
+2023-11-13 |  | DOCKET | Informal Discovery Conference Form For Personal Injury Courts | documents_filed:52
+2023-11-13 |  | DOCKET | Informal Discovery Conference Form For Personal Injury Courts; Filed by: Laura Alcaraz (Plaintiff); Laura Elisa Rodriguez (Plaintiff) | register_of_actions:115
+2023-11-15 | 11:00:00 | DOCKET | Informal Discovery Conference (IDC) | past_proceedings:47
+2023-11-15 |  | DOCKET | Minute Order (Informal Discovery Conference (IDC)) | documents_filed:51
+2023-11-15 |  | DOCKET | Informal Discovery Conference (IDC) scheduled for 11/30/2023 at 11:30 AM in Spring Street Courthouse at Department 29 | register_of_actions:112
+2023-11-15 |  | DOCKET | Minute Order (Informal Discovery Conference (IDC)) | register_of_actions:113
+2023-11-15 |  | DOCKET | Informal Discovery Conference (IDC) scheduled for 11/15/2023 at 11:00 AM in Spring Street Courthouse at Department 29 Not Held - Continued - Court's Motion was rescheduled to 11/30/2023 11:30 AM | register_of_actions:114
+2023-11-28 |  | DOCKET | Opposition PLAINTIFF LAURA RODRIGUEZ'S OPPOSITION TO DEFENDANT'S MOTION TO COMPEL THE DEFENSE MEDICAL EXAMINATION OF PLAINTIFF LAURA RODRIGUEZ; MEMORANDUM OF POINTS AND AUTHORITIES; DECLARATION OF GERARDO MORENO, JR. | documents_filed:50
+2023-11-28 |  | DOCKET | Opposition PLAINTIFF LAURA RODRIGUEZ'S OPPOSITION TO DEFENDANT'S MOTION TO COMPEL THE DEFENSE MEDICAL EXAMINATION OF PLAINTIFF LAURA RODRIGUEZ; MEMORANDUM OF POINTS AND AUTHORITIES; DECLARATION OF GERARDO MORENO, JR. Filed by: Laura Elisa Rodriguez (Plaintiff) | register_of_actions:111
+2023-11-30 | 11:30:00 | DOCKET | Informal Discovery Conference (IDC) | past_proceedings:46
+2023-11-30 |  | DOCKET | Minute Order (Informal Discovery Conference (IDC)) | documents_filed:48
+2023-11-30 |  | DOCKET | Notice Results of Informal Discovery Conference | documents_filed:49
+2023-11-30 |  | DOCKET | Notice Results of Informal Discovery Conference; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant); As to: Laura Alcaraz (Plaintiff); Laura Elisa Rodriguez (Plaintiff) | register_of_actions:108
+2023-11-30 |  | DOCKET | Minute Order (Informal Discovery Conference (IDC)) | register_of_actions:109
+2023-11-30 |  | DOCKET | Informal Discovery Conference (IDC) scheduled for 11/30/2023 at 11:30 AM in Spring Street Courthouse at Department 29 updated: Result Date to 11/30/2023; Result Type to Held | register_of_actions:110
+2023-12-06 |  | DOCKET | Stipulation and Order and Good Cause to Continue Trial | documents_filed:47
+2023-12-06 |  | DOCKET | Pursuant to the request of moving party, Hearing on Motion to Compel Further Discovery Responses scheduled for 01/03/2024 at 01:30 PM in Spring Street Courthouse at Department 29 Not Held - Taken Off Calendar by Party on 12/06/2023 | register_of_actions:105
+2023-12-06 |  | DOCKET | Pursuant to the request of moving party, Hearing on Motion to Compel Plaintiff Laura Elisa Rodriguez's Defense Medical Examination scheduled for 12/11/2023 at 01:30 PM in Spring Street Courthouse at Department 29 Not Held - Taken Off Calendar by Party on 12/06/2023 | register_of_actions:106
+2023-12-06 |  | DOCKET | Stipulation and Order and Good Cause to Continue Trial; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant); As to: Laura Alcaraz (Plaintiff); Laura Elisa Rodriguez (Plaintiff) | register_of_actions:107
+2023-12-08 | 13:30:00 | DOCKET | Hearing on Motion to Compel Further Discovery Responses | past_proceedings:44
+2023-12-08 | 13:30:00 | DOCKET | Hearing on Motion to Compel Further Discovery Responses | past_proceedings:45
+2023-12-08 |  | DOCKET | Order [Proposed] Order | documents_filed:46
+2023-12-08 |  | DOCKET | Pursuant to the request of moving party, Hearing on Motion to Compel Further Discovery Responses scheduled for 01/04/2024 at 01:30 PM in Spring Street Courthouse at Department 29 Not Held - Rescheduled by Party was rescheduled to 02/23/2024 01:30 PM | register_of_actions:101
+2023-12-08 |  | DOCKET | Pursuant to the request of moving party, Hearing on Motion to Compel Further Discovery Responses scheduled for 01/04/2024 at 01:30 PM in Spring Street Courthouse at Department 29 Not Held - Rescheduled by Party was rescheduled to 02/23/2024 01:30 PM | register_of_actions:102
+2023-12-08 |  | DOCKET | Order [Proposed] Order; Signed and Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant); As to: Laura Alcaraz (Plaintiff) | register_of_actions:103
+2023-12-08 |  | DOCKET | Updated -- Order [Proposed] Order: Filed By: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant); Result: Granted ; Result Date: 12/08/2023 | register_of_actions:104
+2023-12-11 | 13:30:00 | DOCKET | Hearing on Motion to Compel | past_proceedings:41
+2023-12-11 | 13:30:00 | DOCKET | Hearing on Motion to Compel | past_proceedings:42
+2023-12-11 | 13:30:00 | DOCKET | Hearing on Motion to Compel Further Discovery Responses | past_proceedings:43
+2023-12-12 |  | DOCKET | Notice of Continuance of Trial | documents_filed:45
+2023-12-12 |  | DOCKET | Notice of Continuance of Trial; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant); As to: Laura Alcaraz (Plaintiff); Laura Elisa Rodriguez (Plaintiff) | register_of_actions:100
+2023-12-20 |  | DOCKET | Motion to Compel Further Discovery Responses DEFENDANT MOTION TO COMPEL PLAINTIFF TO FURTHER ANSWER FORM INTERROGATORIES, SET TWO; DEMAND FOR MONETARY SANCTIONS AGAINST PLAINTIFF, LAURA ELISA RODRIGUEZ, AND HER ATTORNEY OF RECORD, | documents_filed:41
+2023-12-20 |  | DOCKET | Motion to Compel Further Discovery Responses TO DEEM FURTHER RESPONSES TO REQUEST FOR ADMISSIONS ADMITTED AGAINST PLAINTIFF LAURA ELISA RODRIGUEZ; REQUEST FOR MONETARY SANCTIONS; | documents_filed:42
+2023-12-20 |  | DOCKET | Separate Statement | documents_filed:43
+2023-12-20 |  | DOCKET | Separate Statement | documents_filed:44
+2023-12-20 |  | DOCKET | Motion to Compel Further Discovery Responses; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant); As to: Laura Elisa Rodriguez (Plaintiff) | register_of_actions:92
+2023-12-20 |  | DOCKET | Separate Statement; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:93
+2023-12-20 |  | DOCKET | Updated -- Motion to Compel Further Discovery Responses DEFENDANT MOTION TO COMPEL PLAINTIFF TO FURTHER ANSWER FORM INTERROGATORIES, SET TWO; DEMAND FOR MONETARY SANCTIONS AGAINST PLAINTIFF, LAURA ELISA RODRIGUEZ, AND HER ATTORNEY OF RECORD,: Name Extension: DEFENDANT MOTION TO COMPEL PLAINTIFF TO FURTHER ANSWER FORM INTERROGATORIES, SET TWO; DEMAND FOR MONETARY SANCTIONS AGAINST PLAINTIFF, LAURA ELISA RODRIGUEZ, AND HER ATTORNEY OF RECORD, | register_of_actions:94
+2023-12-20 |  | DOCKET | Motion to Compel Further Discovery Responses; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant); As to: Laura Elisa Rodriguez (Plaintiff) | register_of_actions:95
+2023-12-20 |  | DOCKET | Separate Statement; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:96
+2023-12-20 |  | DOCKET | Updated -- Motion to Compel Further Discovery Responses TO DEEM FURTHER RESPONSES TO REQUEST FOR ADMISSIONS ADMITTED AGAINST PLAINTIFF LAURA ELISA RODRIGUEZ; REQUEST FOR MONETARY SANCTIONS;: Name Extension: TO DEEM FURTHER RESPONSES TO REQUEST FOR ADMISSIONS ADMITTED AGAINST PLAINTIFF LAURA ELISA RODRIGUEZ; REQUEST FOR MONETARY SANCTIONS; | register_of_actions:97
+2023-12-20 |  | DOCKET | Hearing on Motion to Compel Further Discovery Responses scheduled for 02/23/2024 at 01:30 PM in Spring Street Courthouse at Department 29 | register_of_actions:98
+2023-12-20 |  | DOCKET | Hearing on Motion to Compel Further Discovery Responses scheduled for 02/23/2024 at 01:30 PM in Spring Street Courthouse at Department 29 | register_of_actions:99
+2024-01-03 | 13:30:00 | DOCKET | Hearing on Motion to Compel Further Discovery Responses | past_proceedings:40
+2024-01-04 | 10:00:00 | DOCKET | Final Status Conference | past_proceedings:37
+2024-01-04 | 13:30:00 | DOCKET | Hearing on Motion to Compel Further Discovery Responses | past_proceedings:38
+2024-01-04 | 13:30:00 | DOCKET | Hearing on Motion to Compel Further Discovery Responses | past_proceedings:39
+2024-01-04 |  | DOCKET | Final Status Conference scheduled for 05/17/2024 at 10:00 AM in Spring Street Courthouse at Department 29 | register_of_actions:89
+2024-01-04 |  | DOCKET | Pursuant to written stipulation, Jury Trial scheduled for 01/18/2024 at 08:30 AM in Spring Street Courthouse at Department 29 Not Held - Continued - Stipulation was rescheduled to 05/31/2024 08:30 AM | register_of_actions:90
+2024-01-04 |  | DOCKET | Final Status Conference scheduled for 01/04/2024 at 10:00 AM in Spring Street Courthouse at Department 29 Not Held - Vacated by Court on 01/04/2024 | register_of_actions:91
+2024-01-18 | 08:30:00 | DOCKET | Jury Trial | past_proceedings:36
+2024-01-31 | 13:30:00 | DOCKET | Hearing on Motion to Compel | past_proceedings:34
+2024-01-31 | 13:30:00 | DOCKET | Hearing on Motion to Compel | past_proceedings:35
+2024-02-07 |  | DOCKET | Motion to Bifurcate of Issues at Trial | documents_filed:40
+2024-02-07 |  | DOCKET | Motion to Bifurcate of Issues at Trial; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:87
+2024-02-07 |  | DOCKET | Hearing on Motion to Bifurcate of Issues at Trial scheduled for 03/06/2024 at 01:30 PM in Spring Street Courthouse at Department 29 | register_of_actions:88
+2024-02-09 |  | DOCKET | Opposition PLAINTIFF LAURA RODRIGUEZ'S OPPOSITION TO DEFENDANT'S MOTION TO COMPEL FURTHER RESPONSES TO FORM INTERROGATORIES SET TWO; MEMORANDUM OF POINTS AND AUTHORITIES; DECLARATION OF GERARDO MORENO, JR. | documents_filed:38
+2024-02-09 |  | DOCKET | Opposition PLAINTIFF LAURA RODRIGUEZ'S OPPOSITION TO DEFENDANT'S MOTION TO DEEM FURTHER RESPONSES TO REQUEST FOR ADMISSION ADMITTED AGAINST PLAINTIFF LAURA RODRIGUEZ; MEMORANDUM OF POINTS AND AUTHORITIES; DECLARATION OF GERARDO MORENO, JR. | documents_filed:39
+2024-02-09 |  | DOCKET | Opposition PLAINTIFF LAURA RODRIGUEZ'S OPPOSITION TO DEFENDANT'S MOTION TO COMPEL FURTHER RESPONSES TO FORM INTERROGATORIES SET TWO; MEMORANDUM OF POINTS AND AUTHORITIES; DECLARATION OF GERARDO MORENO, JR. Filed by: Laura Elisa Rodriguez (Plaintiff) | register_of_actions:85
+2024-02-09 |  | DOCKET | Opposition PLAINTIFF LAURA RODRIGUEZ'S OPPOSITION TO DEFENDANT'S MOTION TO DEEM FURTHER RESPONSES TO REQUEST FOR ADMISSION ADMITTED AGAINST PLAINTIFF LAURA RODRIGUEZ; MEMORANDUM OF POINTS AND AUTHORITIES; DECLARATION OF GERARDO MORENO, JR. Filed by: Laura Elisa Rodriguez (Plaintiff) | register_of_actions:86
+2024-02-13 |  | DOCKET | Reply TO PLAINTIFFS OPPOSITION TO MOTION TO DEEM FURTHER RESPONSES TO REQUEST FOR ADMISSIONS ADMITTED AGAINST PLAINTIFF LAURA ELISA RODRIGUEZ; DECLARATION OF JOSHUA B. ADELPOUR | documents_filed:36
+2024-02-13 |  | DOCKET | Reply TO PLAINTIFFS OPPOSITION TOMOTION TO COMPEL PLAINTIFF TO FURTHER ANSWER FORM INTERROGATORIES, SET TWO; DECLARATION OF JOSHUA B. ADELPOUR | documents_filed:37
+2024-02-13 |  | DOCKET | Reply TO PLAINTIFFS OPPOSITION TOMOTION TO COMPEL PLAINTIFF TO FURTHER ANSWER FORM INTERROGATORIES, SET TWO; DECLARATION OF JOSHUA B. ADELPOUR; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:83
+2024-02-13 |  | DOCKET | Reply TO PLAINTIFFS OPPOSITION TO MOTION TO DEEM FURTHER RESPONSES TO REQUEST FOR ADMISSIONS ADMITTED AGAINST PLAINTIFF LAURA ELISA RODRIGUEZ; DECLARATION OF JOSHUA B. ADELPOUR; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:84
+2024-02-22 |  | DOCKET | Opposition Plaintiff's Opposition to Defendant's Motion to Bifurcate the Issues of Liability and Damages at Trial | documents_filed:35
+2024-02-22 |  | DOCKET | Opposition Plaintiff's Opposition to Defendant's Motion to Bifurcate the Issues of Liability and Damages at Trial; Filed by: Laura Alcaraz (Plaintiff) | register_of_actions:82
+2024-02-23 | 13:30:00 | DOCKET | Hearing on Motion to Compel Further Discovery Responses | past_proceedings:32
+2024-02-23 | 13:30:00 | DOCKET | Hearing on Motion to Compel Further Discovery Responses | past_proceedings:33
+2024-02-23 |  | DOCKET | Certificate of Mailing for ((1) Hearing on Motion to Compel Further Discovery Responses; ...) of 02/23/2024 | documents_filed:33
+2024-02-23 |  | DOCKET | Minute Order ((1) Hearing on Motion to Compel Further Discovery Responses; ...) | documents_filed:34
+2024-02-23 |  | DOCKET | Updated -- Motion to Compel Further Discovery Responses TO DEEM FURTHER RESPONSES TO REQUEST FOR ADMISSIONS ADMITTED AGAINST PLAINTIFF LAURA ELISA RODRIGUEZ; REQUEST FOR MONETARY SANCTIONS;: Filed By: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant); Result: Granted ; Result Date: 02/23/2024 | register_of_actions:76
+2024-02-23 |  | DOCKET | Updated -- Motion to Compel Further Discovery Responses DEFENDANT MOTION TO COMPEL PLAINTIFF TO FURTHER ANSWER FORM INTERROGATORIES, SET TWO; DEMAND FOR MONETARY SANCTIONS AGAINST PLAINTIFF, LAURA ELISA RODRIGUEZ, AND HER ATTORNEY OF RECORD,: Filed By: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant); Result: Granted ; Result Date: 02/23/2024 | register_of_actions:77
+2024-02-23 |  | DOCKET | Minute Order ((1) Hearing on Motion to Compel Further Discovery Responses; ...) | register_of_actions:78
+2024-02-23 |  | DOCKET | Certificate of Mailing for ((1) Hearing on Motion to Compel Further Discovery Responses; ...) of 02/23/2024; Filed by: Clerk | register_of_actions:79
+2024-02-23 |  | DOCKET | Hearing on Motion to Compel Further Discovery Responses scheduled for 02/23/2024 at 01:30 PM in Spring Street Courthouse at Department 29 updated: Result Date to 02/23/2024; Result Type to Held - Motion Granted | register_of_actions:80
+2024-02-23 |  | DOCKET | Hearing on Motion to Compel Further Discovery Responses scheduled for 02/23/2024 at 01:30 PM in Spring Street Courthouse at Department 29 updated: Result Date to 02/23/2024; Result Type to Held - Motion Granted | register_of_actions:81
+2024-02-26 | 01:50:44 | CLINICAL_XML | Problem List | clinical_entry:324
+2024-02-26 |  | DOCKET | Reply to Plaintiff's Opposition to Motion for Bifurcation of Issues at Trial; Memorandum of Points and Authorities; Declaration of Joshua B. Adelpour | documents_filed:32
+2024-02-26 |  | DOCKET | Reply to Plaintiff's Opposition to Motion for Bifurcation of Issues at Trial; Memorandum of Points and Authorities; Declaration of Joshua B. Adelpour; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:75
+2024-02-28 | 21:18:33 | CLINICAL_XML | Social History | clinical_entry:522
+2024-03-06 | 13:30:00 | DOCKET | Hearing on Motion to Bifurcate | past_proceedings:31
+2024-03-06 |  | DOCKET | Minute Order (Hearing on Motion to Bifurcate of Issues at Trial) | documents_filed:31
+2024-03-06 |  | DOCKET | Updated -- Motion to Bifurcate of Issues at Trial: Filed By: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant); Result: Denied ; Result Date: 03/06/2024 | register_of_actions:72
+2024-03-06 |  | DOCKET | Minute Order (Hearing on Motion to Bifurcate of Issues at Trial) | register_of_actions:73
+2024-03-06 |  | DOCKET | Hearing on Motion to Bifurcate of Issues at Trial scheduled for 03/06/2024 at 01:30 PM in Spring Street Courthouse at Department 29 updated: Result Date to 03/06/2024; Result Type to Held - Motion Denied | register_of_actions:74
+2024-03-07 |  | DOCKET | Notice of Ruling | documents_filed:30
+2024-03-07 |  | DOCKET | Notice of Ruling; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:71
+2024-04-01 | 10:14:27 PDT | CROSS_SOURCE | Prior inpatient encounter begins | LAHP_XML_002_Apr_11_2024_Visit_Care_Summaries_123566733.xml
+2024-04-11 | 18:21:00 | CLINICAL_XML | Immunizations | clinical_entry:11
+2024-04-11 | 19:45 PDT | CROSS_SOURCE | Prior inpatient encounter ends | LAHP_XML_002_Apr_11_2024_Visit_Care_Summaries_123566733.xml
+2024-04-19 |  | DOCKET | Motion in Limine NO. FIVE: DEFENDANT'S MOTION IN LIMINE TO PRECLUDE 'GOLDEN RULE' OR 'REPTILE THEORY' ARGUMENTS; MEMORANDUM OF POINTS AND AUTHORITIES; DECLARATION OF GABRIEL H. W AINFELD | documents_filed:23
+2024-04-19 |  | DOCKET | Motion in Limine NO. FOUR: DEFENDANT'S MOTION IN LIMINE TO LIMIT EVIDENCE OF PLAINTIFFS' MEDICAL CHARGES; MEMORANDUM OF POINTS AND AUTHORITIES; DECLARATION OF GABRIEL H. WAINFELD | documents_filed:24
+2024-04-19 |  | DOCKET | Motion in Limine NO. ONE: DEFENDANT'S MOTION IN LIMINE TO LIMIT TESTIMONY OF PLAINTIFFS' EXPERT WITNESSES TO THOSE OPINIONS AND CONCLUSIONS TESTIFIED TO AT THEIR DEPOSITIONS; MEMORANDUM OF POINTS AND AUTHORITIES; DECLARATION OF GABRIEL H. WAINFELD | documents_filed:25
+2024-04-19 |  | DOCKET | Motion in Limine NO. SEVEN: DEFENDANT'S MOTION IN LIMINE TO LIMIT THE SCOPE OF TESTIMONY OF PLAINTIFF'S NON-RETAINED EXPERTS; MEMORANDUM OF POINTS AND AUTHORITIES; DECLARATION OF GABRIEL H. W AINFELD | documents_filed:26
+2024-04-19 |  | DOCKET | Motion in Limine NO. SIX: DEFENDANT'S MOTION IN LIMINE TO PRECLUDE ANY STATEMENT, ARGUMENT, OR SUGGESTION THAT DEFENDANT'S EXPERTS IMPROPERLY REACHED THEIR OPINIONS BY FAILING TO PHYSICALLY EXAMINE PLAINTIFF; MEMORANDUM OF POINTS AND AUTHORITIES; DECLARAITION OF GABRIEL H | documents_filed:27
+2024-04-19 |  | DOCKET | Motion in Limine NO. THREE: DEFENDANT'S THAT NO ACTUAL OR POTENTIAL DOLLAR AMOUNT OF DAMAGES IN THIS OR ANY OTHER HYPOTHETICAL CASE BE MENTIONED DURING VOIR DIRE EXAMINATION; MEMORANDUM OF POINTS AND AUTHORITIES; DECLARATION OF GABRIEL H. WAINFELD | documents_filed:28
+2024-04-19 |  | DOCKET | Motion in Limine NO. TWO: DEFENDANT'S MOTION IN LIMINE TO EXCLUDE ANY EVIDENCE OR WITNESSES PLAINTIFFS FAILED TO IDENTIFY DURING DISCOVERY; MEMORANDUM OF POINTS AND AUTHORITIES; DECLARATION OF GABRIEL H. WAINFELD | documents_filed:29
+2024-04-19 |  | DOCKET | Motion in Limine NO. ONE: DEFENDANT'S MOTION IN LIMINE TO LIMIT TESTIMONY OF PLAINTIFFS' EXPERT WITNESSES TO THOSE OPINIONS AND CONCLUSIONS TESTIFIED TO AT THEIR DEPOSITIONS; MEMORANDUM OF POINTS AND AUTHORITIES; DECLARATION OF GABRIEL H. WAINFELD; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:64
+2024-04-19 |  | DOCKET | Motion in Limine NO. TWO: DEFENDANT'S MOTION IN LIMINE TO EXCLUDE ANY EVIDENCE OR WITNESSES PLAINTIFFS FAILED TO IDENTIFY DURING DISCOVERY; MEMORANDUM OF POINTS AND AUTHORITIES; DECLARATION OF GABRIEL H. WAINFELD; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:65
+2024-04-19 |  | DOCKET | Motion in Limine NO. THREE: DEFENDANT'S THAT NO ACTUAL OR POTENTIAL DOLLAR AMOUNT OF DAMAGES IN THIS OR ANY OTHER HYPOTHETICAL CASE BE MENTIONED DURING VOIR DIRE EXAMINATION; MEMORANDUM OF POINTS AND AUTHORITIES; DECLARATION OF GABRIEL H. WAINFELD; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:66
+2024-04-19 |  | DOCKET | Motion in Limine NO. FOUR: DEFENDANT'S MOTION IN LIMINE TO LIMIT EVIDENCE OF PLAINTIFFS' MEDICAL CHARGES; MEMORANDUM OF POINTS AND AUTHORITIES; DECLARATION OF GABRIEL H. WAINFELD; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:67
+2024-04-19 |  | DOCKET | Motion in Limine NO. FIVE: DEFENDANT'S MOTION IN LIMINE TO PRECLUDE 'GOLDEN RULE' OR 'REPTILE THEORY' ARGUMENTS; MEMORANDUM OF POINTS AND AUTHORITIES; DECLARATION OF GABRIEL H. W AINFELD; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:68
+2024-04-19 |  | DOCKET | Motion in Limine NO. SIX: DEFENDANT'S MOTION IN LIMINE TO PRECLUDE ANY STATEMENT, ARGUMENT, OR SUGGESTION THAT DEFENDANT'S EXPERTS IMPROPERLY REACHED THEIR OPINIONS BY FAILING TO PHYSICALLY EXAMINE PLAINTIFF; MEMORANDUM OF POINTS AND AUTHORITIES; DECLARAITION OF GABRIEL H; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:69
+2024-04-19 |  | DOCKET | Motion in Limine NO. SEVEN: DEFENDANT'S MOTION IN LIMINE TO LIMIT THE SCOPE OF TESTIMONY OF PLAINTIFF'S NON-RETAINED EXPERTS; MEMORANDUM OF POINTS AND AUTHORITIES; DECLARATION OF GABRIEL H. W AINFELD; Filed by: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:70
+2024-04-22 | 20:44:57 | CLINICAL_XML | Encounter | clinical_entry:1
+2024-04-22 | 20:44:57 PDT | CROSS_SOURCE | Final inpatient encounter registered / begins | LAHP_XML_001_May_16_2024_Visit_Care_Summaries_124478076.xml
+2024-04-22 | 20:47 | DOCUMENT_TRANSCRIPTION | Motion to be relieved as counsel — Alcaraz | docket_sync:1
+2024-04-22 | 20:47 | DOCUMENT_TRANSCRIPTION | Supporting declaration — Alcaraz | docket_sync:2
+2024-04-22 | 20:47 | DOCUMENT_TRANSCRIPTION | Proof of service by mail — Alcaraz | docket_sync:3
+2024-04-22 | 20:47 | DOCUMENT_TRANSCRIPTION | Electronic proof of service — defense counsel | docket_sync:4
+2024-04-22 | 20:47 PDT | CROSS_SOURCE | Alcaraz MC-051 e-filed | 4-22-2024_20STCV36044 L.A Motion to Be Relieved as CounselE100061267.pdf
+2024-04-22 | 21:08 | DOCUMENT_TRANSCRIPTION | Motion to be relieved as counsel — Rodriguez | docket_sync:5
+2024-04-22 | 21:08 | DOCUMENT_TRANSCRIPTION | Supporting declaration — Rodriguez | docket_sync:6
+2024-04-22 | 21:08 | DOCUMENT_TRANSCRIPTION | Proof of service by mail — Rodriguez | docket_sync:7
+2024-04-22 | 21:08 | DOCUMENT_TRANSCRIPTION | Electronic proof of service — Rodriguez matter | docket_sync:8
+2024-04-22 | 21:08 PDT | CROSS_SOURCE | Rodriguez MC-051 e-filed | 4-22-2024 20STCV36044 LR Motion to Be Relieved as CounselE100061363.pdf
+2024-04-22 | 22:04:00 | CLINICAL_XML | Vital Signs | clinical_entry:514
+2024-04-22 | 23:43:00 | CLINICAL_XML | Results | clinical_entry:357
+2024-04-22 | 23:49:00 | CLINICAL_XML | Medications | clinical_entry:72
+2024-04-22 | 23:54:00 | CLINICAL_XML | Results | clinical_entry:358
+2024-04-22 | Undated hour | CROSS_SOURCE | Alcaraz MC-052 signed | 4-22-2024 [20STCV36044] L.A Declaration in Support of Attorney's Motion to Be Relieved as Counsel-Civil (Pages 1-2).pdf
+2024-04-22 | Undated hour | CROSS_SOURCE | Rodriguez MC-052 signed | 4-22-2024 [20STCV36044] LR Declaration in Support of Attorney's Motion to Be Relieved as Counsel-Civil (Pages 1-2) E100061364.pdf
+2024-04-22 |  | DOCKET | Declaration in Support of Attorney's Motion to Be Relieved as Counsel-Civil | documents_filed:15
+2024-04-22 |  | DOCKET | Declaration in Support of Attorney's Motion to Be Relieved as Counsel-Civil | documents_filed:16
+2024-04-22 |  | DOCKET | Motion to Be Relieved as Counsel | documents_filed:17
+2024-04-22 |  | DOCKET | Motion to Be Relieved as Counsel | documents_filed:18
+2024-04-22 |  | DOCKET | Proof of Service (not Summons and Complaint) | documents_filed:19
+2024-04-22 |  | DOCKET | Proof of Service (not Summons and Complaint) | documents_filed:20
+2024-04-22 |  | DOCKET | Proof of Service (not Summons and Complaint) | documents_filed:21
+2024-04-22 |  | DOCKET | Proof of Service (not Summons and Complaint) | documents_filed:22
+2024-04-22 |  | DOCKET | Motion to Be Relieved as Counsel; Filed by: Attorney | register_of_actions:55
+2024-04-22 |  | DOCKET | Declaration in Support of Attorney's Motion to Be Relieved as Counsel-Civil; Filed by: Laura Alcaraz (Plaintiff) | register_of_actions:56
+2024-04-22 |  | DOCKET | Proof of Service (not Summons and Complaint); Filed by: Laura Alcaraz (Plaintiff) | register_of_actions:57
+2024-04-22 |  | DOCKET | Proof of Service (not Summons and Complaint); Filed by: Laura Alcaraz (Plaintiff) | register_of_actions:58
+2024-04-22 |  | DOCKET | Motion to Be Relieved as Counsel; Filed by: Attorney | register_of_actions:59
+2024-04-22 |  | DOCKET | Declaration in Support of Attorney's Motion to Be Relieved as Counsel-Civil; Filed by: Laura Elisa Rodriguez (Plaintiff) | register_of_actions:60
+2024-04-22 |  | DOCKET | Proof of Service (not Summons and Complaint); Filed by: Laura Elisa Rodriguez (Plaintiff) | register_of_actions:61
+2024-04-22 |  | DOCKET | Proof of Service (not Summons and Complaint); Filed by: Laura Elisa Rodriguez (Plaintiff) | register_of_actions:62
+2024-04-22 |  | DOCKET | Pursuant to the request of moving party, Hearing on Motion to be Relieved as Counsel scheduled for 05/28/2024 at 01:30 PM in Spring Street Courthouse at Department 29 Not Held - Rescheduled by Party was rescheduled to 05/29/2024 01:30 PM | register_of_actions:63
+2024-04-23 | 01:22:00 | CLINICAL_XML | Medications | clinical_entry:73
+2024-04-23 | 02:49:29 | CLINICAL_XML | Medications | clinical_entry:74
+2024-04-23 | 05:10:00 | CLINICAL_XML | Results | clinical_entry:365
+2024-04-23 | 05:10:00 | CLINICAL_XML | Results | clinical_entry:376
+2024-04-23 | 05:28:00 | CLINICAL_XML | Medications | clinical_entry:110
+2024-04-23 | 05:31:20 | CLINICAL_XML | Insurance Providers | clinical_entry:557
+2024-04-23 | 05:51:00 | CLINICAL_XML | Medications | clinical_entry:112
+2024-04-23 | 05:52:00 | CLINICAL_XML | Medications | clinical_entry:111
+2024-04-23 | 06:07:00 | CLINICAL_XML | Medications | clinical_entry:122
+2024-04-23 | 06:10:00 | CLINICAL_XML | Medications | clinical_entry:129
+2024-04-23 | 06:13:00 | CLINICAL_XML | Medications | clinical_entry:136
+2024-04-23 | 06:13:00 | CLINICAL_XML | Medications | clinical_entry:137
+2024-04-23 | 06:13:00 | CLINICAL_XML | Medications | clinical_entry:138
+2024-04-23 | 06:30:00 | CLINICAL_XML | Medications | clinical_entry:132
+2024-04-23 | 07:00:00 | CLINICAL_XML | Medications | clinical_entry:113
+2024-04-23 | 07:00:00 | CLINICAL_XML | Medications | clinical_entry:114
+2024-04-23 | 07:00:00 | CLINICAL_XML | Medications | clinical_entry:126
+2024-04-23 | 08:00:00 | CLINICAL_XML | Medications | clinical_entry:133
+2024-04-23 | 10:00:00 | CLINICAL_XML | Medications | clinical_entry:115
+2024-04-23 | 10:00:00 | CLINICAL_XML | Medications | clinical_entry:117
+2024-04-23 | 10:00:00 | CLINICAL_XML | Medications | clinical_entry:118
+2024-04-23 | 10:00:00 | CLINICAL_XML | Medications | clinical_entry:121
+2024-04-23 | 10:00:00 | CLINICAL_XML | Medications | clinical_entry:123
+2024-04-23 | 10:00:00 | CLINICAL_XML | Medications | clinical_entry:124
+2024-04-23 | 10:00:00 | CLINICAL_XML | Medications | clinical_entry:127
+2024-04-23 | 11:30:00 | CLINICAL_XML | Medications | clinical_entry:250
+2024-04-23 | 12:09:00 | CLINICAL_XML | Vital Signs | clinical_entry:510
+2024-04-23 | 12:17:00 | CLINICAL_XML | Medications | clinical_entry:261
+2024-04-23 | 14:20:00 | CLINICAL_XML | Medications | clinical_entry:22
+2024-04-23 | 14:20:00 | CLINICAL_XML | Medications | clinical_entry:23
+2024-04-23 | 14:30:00 | CLINICAL_XML | Medications | clinical_entry:21
+2024-04-23 | 15:00:00 | CLINICAL_XML | Medications | clinical_entry:26
+2024-04-23 | 16:32:00 | CLINICAL_XML | Vital Signs | clinical_entry:502
+2024-04-23 | 17:40:20 | CLINICAL_XML | Social History | clinical_entry:527
+2024-04-23 | 22:00:00 | CLINICAL_XML | Medications | clinical_entry:20
+2024-04-23 | 22:00:00 | CLINICAL_XML | Medications | clinical_entry:116
+2024-04-23 | 22:00:00 | CLINICAL_XML | Medications | clinical_entry:125
+2024-04-23 | 22:00:00 | CLINICAL_XML | Medications | clinical_entry:128
+2024-04-23 | 22:00:00 | CLINICAL_XML | Medications | clinical_entry:135
+2024-04-23 |  | DOCKET | Hearing on Motion to be Relieved as Counsel scheduled for 05/29/2024 at 01:30 PM in Spring Street Courthouse at Department 29 | register_of_actions:53
+2024-04-23 |  | DOCKET | Hearing on Motion to be Relieved as Counsel scheduled for 05/29/2024 at 01:30 PM in Spring Street Courthouse at Department 29 | register_of_actions:54
+2024-04-24 | 08:00:00 | CLINICAL_XML | Medications | clinical_entry:293
+2024-04-24 | 09:05:00 | CLINICAL_XML | Medications | clinical_entry:55
+2024-04-24 | 09:51:00 | CLINICAL_XML | Medications | clinical_entry:58
+2024-04-24 | 09:51:00 | CLINICAL_XML | Medications | clinical_entry:59
+2024-04-24 | 09:51:00 | CLINICAL_XML | Medications | clinical_entry:60
+2024-04-24 | 09:51:00 | CLINICAL_XML | Medications | clinical_entry:61
+2024-04-24 | 09:51:00 | CLINICAL_XML | Medications | clinical_entry:62
+2024-04-24 | 10:00:00 | CLINICAL_XML | Medications | clinical_entry:134
+2024-04-24 | 10:13:00 | CLINICAL_XML | Medications | clinical_entry:70
+2024-04-24 | 10:30:00 | CLINICAL_XML | Medications | clinical_entry:66
+2024-04-24 | 10:30:00 | CLINICAL_XML | Medications | clinical_entry:71
+2024-04-24 | 11:00:00 | CLINICAL_XML | Medications | clinical_entry:67
+2024-04-24 | 16:35:00 | CLINICAL_XML | Medications | clinical_entry:248
+2024-04-24 | 17:00:00 | CLINICAL_XML | Medications | clinical_entry:246
+2024-04-24 | 17:00:00 | CLINICAL_XML | Medications | clinical_entry:247
+2024-04-24 | 20:21:00 | CLINICAL_XML | Medications | clinical_entry:300
+2024-04-25 | 02:00:00 | CLINICAL_XML | Medications | clinical_entry:249
+2024-04-25 | 05:18:00 | CLINICAL_XML | Medications | clinical_entry:64
+2024-04-25 | 08:00:00 | CLINICAL_XML | Medications | clinical_entry:90
+2024-04-25 | 08:05:00 | CLINICAL_XML | Medications | clinical_entry:91
+2024-04-25 | 08:30:00 | CLINICAL_XML | Medications | clinical_entry:92
+2024-04-25 | 09:41:00 | CLINICAL_XML | Results | clinical_entry:399
+2024-04-25 | 10:09:00 | CLINICAL_XML | Medications | clinical_entry:142
+2024-04-25 | 10:13:00 | CLINICAL_XML | Medications | clinical_entry:143
+2024-04-25 | 10:22:00 | CLINICAL_XML | Medications | clinical_entry:148
+2024-04-25 | 10:22:00 | CLINICAL_XML | Medications | clinical_entry:149
+2024-04-25 | 10:22:00 | CLINICAL_XML | Medications | clinical_entry:150
+2024-04-25 | 11:55:00 | CLINICAL_XML | Medications | clinical_entry:204
+2024-04-25 | 12:00:00 | CLINICAL_XML | Medications | clinical_entry:146
+2024-04-25 | 12:34:00 | CLINICAL_XML | Medications | clinical_entry:33
+2024-04-25 | 12:34:00 | CLINICAL_XML | Medications | clinical_entry:206
+2024-04-25 | 12:35:00 | CLINICAL_XML | Medications | clinical_entry:34
+2024-04-25 | 12:36:00 | CLINICAL_XML | Medications | clinical_entry:35
+2024-04-25 | 12:36:00 | CLINICAL_XML | Medications | clinical_entry:36
+2024-04-25 | 12:37:00 | CLINICAL_XML | Medications | clinical_entry:37
+2024-04-25 | 12:37:00 | CLINICAL_XML | Medications | clinical_entry:38
+2024-04-25 | 14:00:00 | CLINICAL_XML | Medications | clinical_entry:56
+2024-04-25 | 14:32:00 | CLINICAL_XML | Medications | clinical_entry:198
+2024-04-25 | 20:00:00 | CLINICAL_XML | Medications | clinical_entry:203
+2024-04-25 | 23:43:00 | CLINICAL_XML | Medications | clinical_entry:196
+2024-04-26 | 04:38:00 | CLINICAL_XML | Medications | clinical_entry:201
+2024-04-26 | 10:00:00 | CLINICAL_XML | Medications | clinical_entry:89
+2024-04-26 | 10:04:00 | CLINICAL_XML | Medications | clinical_entry:46
+2024-04-26 | 10:04:00 | CLINICAL_XML | Medications | clinical_entry:47
+2024-04-26 | 10:04:00 | CLINICAL_XML | Medications | clinical_entry:48
+2024-04-26 | 10:04:00 | CLINICAL_XML | Medications | clinical_entry:49
+2024-04-26 | 10:04:00 | CLINICAL_XML | Medications | clinical_entry:50
+2024-04-26 | 12:00:00 | CLINICAL_XML | Medications | clinical_entry:63
+2024-04-26 | 13:05:00 | CLINICAL_XML | Medications | clinical_entry:83
+2024-04-26 | 13:25:00 | CLINICAL_XML | Medications | clinical_entry:87
+2024-04-26 | 14:00:00 | CLINICAL_XML | Medications | clinical_entry:88
+2024-04-26 | 16:00:00 | CLINICAL_XML | Medications | clinical_entry:140
+2024-04-26 | 16:53:00 | CLINICAL_XML | Medications | clinical_entry:144
+2024-04-26 | 18:55:00 | CLINICAL_XML | Medications | clinical_entry:202
+2024-04-26 | 21:00:00 | CLINICAL_XML | Medications | clinical_entry:139
+2024-04-27 | 00:00:00 | CLINICAL_XML | Medications | clinical_entry:141
+2024-04-27 | 00:23:00 | CLINICAL_XML | Medications | clinical_entry:244
+2024-04-27 | 00:25:00 | CLINICAL_XML | Medications | clinical_entry:245
+2024-04-27 | 01:43:00 | CLINICAL_XML | Medications | clinical_entry:254
+2024-04-27 | 02:19:00 | CLINICAL_XML | Medications | clinical_entry:257
+2024-04-27 | 02:58:00 | CLINICAL_XML | Medications | clinical_entry:258
+2024-04-27 | 03:06:00 | CLINICAL_XML | Medications | clinical_entry:259
+2024-04-27 | 11:19:00 | CLINICAL_XML | Medications | clinical_entry:19
+2024-04-27 | 11:20:00 | CLINICAL_XML | Medications | clinical_entry:24
+2024-04-28 | 00:12:00 | CLINICAL_XML | Medications | clinical_entry:220
+2024-04-28 | 00:30:00 | CLINICAL_XML | Medications | clinical_entry:221
+2024-04-28 | 01:30:00 | CLINICAL_XML | Medications | clinical_entry:225
+2024-04-28 | 07:58:00 | CLINICAL_XML | Medications | clinical_entry:255
+2024-04-28 | 07:58:00 | CLINICAL_XML | Medications | clinical_entry:256
+2024-04-28 | 09:38:00 | CLINICAL_XML | Results | clinical_entry:445
+2024-04-28 | 09:38:00 | CLINICAL_XML | Results | clinical_entry:451
+2024-04-28 | 09:38:00 | CLINICAL_XML | Results | clinical_entry:468
+2024-04-28 | 10:00:00 | CLINICAL_XML | Medications | clinical_entry:25
+2024-04-28 | 12:30:00 | CLINICAL_XML | Medications | clinical_entry:286
+2024-04-28 | 13:13:00 | CLINICAL_XML | Medications | clinical_entry:296
+2024-04-28 | 13:13:00 | CLINICAL_XML | Medications | clinical_entry:297
+2024-04-28 | 14:00:00 | CLINICAL_XML | Medications | clinical_entry:16
+2024-04-28 | 15:40:00 | CLINICAL_XML | Medications | clinical_entry:288
+2024-04-28 | 15:40:00 | CLINICAL_XML | Medications | clinical_entry:289
+2024-04-28 | 15:40:00 | CLINICAL_XML | Medications | clinical_entry:290
+2024-04-28 | 15:40:00 | CLINICAL_XML | Medications | clinical_entry:291
+2024-04-28 | 15:40:00 | CLINICAL_XML | Medications | clinical_entry:292
+2024-04-28 | 18:00:00 | CLINICAL_XML | Medications | clinical_entry:17
+2024-04-28 | 20:00:00 | CLINICAL_XML | Medications | clinical_entry:18
+2024-04-28 | 20:00:00 | CLINICAL_XML | Medications | clinical_entry:54
+2024-04-28 | 22:39:00 | CLINICAL_XML | Medications | clinical_entry:75
+2024-04-28 | 22:43:00 | CLINICAL_XML | Medications | clinical_entry:76
+2024-04-28 | 23:44:00 | CLINICAL_XML | Medications | clinical_entry:77
+2024-04-29 | 08:25:00 | CLINICAL_XML | Results | clinical_entry:467
+2024-04-29 | 09:58:00 | CLINICAL_XML | Medications | clinical_entry:78
+2024-04-29 | 09:58:00 | CLINICAL_XML | Medications | clinical_entry:79
+2024-04-29 | 09:58:00 | CLINICAL_XML | Medications | clinical_entry:80
+2024-04-29 | 09:58:00 | CLINICAL_XML | Medications | clinical_entry:81
+2024-04-29 | 09:58:00 | CLINICAL_XML | Medications | clinical_entry:82
+2024-04-29 | 13:33:04 | CLINICAL_XML | Medications | clinical_entry:306
+2024-04-29 | 13:41:49 | CLINICAL_XML | Medications | clinical_entry:307
+2024-04-29 | 14:11:00 | CLINICAL_XML | Results | clinical_entry:403
+2024-04-29 | 14:11:00 | CLINICAL_XML | Results | clinical_entry:423
+2024-04-29 | 14:11:00 | CLINICAL_XML | Results | clinical_entry:447
+2024-04-29 | 14:11:00 | CLINICAL_XML | Results | clinical_entry:448
+2024-04-29 | 14:11:00 | CLINICAL_XML | Results | clinical_entry:449
+2024-04-29 | 14:11:00 | CLINICAL_XML | Results | clinical_entry:450
+2024-04-29 | 14:11:00 | CLINICAL_XML | Results | clinical_entry:452
+2024-04-29 | 14:15:00 | CLINICAL_XML | Medications | clinical_entry:298
+2024-04-29 | 14:15:00 | CLINICAL_XML | Medications | clinical_entry:299
+2024-04-29 | 23:30:00 | CLINICAL_XML | Medications | clinical_entry:151
+2024-04-30 | 09:47:38 | CLINICAL_XML | Neonatal perinatal medicine Progress note | clinical_entry:547
+2024-04-30 | 09:47:38 PDT | CROSS_SOURCE | Inpatient progress note | LAHP_XML_001_May_16_2024_Visit_Care_Summaries_124478076.xml
+2024-04-30 | 10:16:00 | CLINICAL_XML | Medications | clinical_entry:301
+2024-04-30 | 10:16:00 | CLINICAL_XML | Medications | clinical_entry:302
+2024-04-30 | 10:16:00 | CLINICAL_XML | Medications | clinical_entry:303
+2024-04-30 | 10:16:00 | CLINICAL_XML | Medications | clinical_entry:304
+2024-04-30 | 10:16:00 | CLINICAL_XML | Medications | clinical_entry:305
+2024-04-30 | 11:59:00 | CLINICAL_XML | Medications | clinical_entry:130
+2024-04-30 | 11:59:00 | CLINICAL_XML | Medications | clinical_entry:131
+2024-04-30 | 12:02:00 | CLINICAL_XML | Medications | clinical_entry:120
+2024-04-30 | 13:23:00 | CLINICAL_XML | Results | clinical_entry:366
+2024-04-30 | 13:23:00 | CLINICAL_XML | Results | clinical_entry:367
+2024-04-30 | 13:23:00 | CLINICAL_XML | Results | clinical_entry:368
+2024-04-30 | 13:23:00 | CLINICAL_XML | Results | clinical_entry:369
+2024-04-30 | 13:23:00 | CLINICAL_XML | Results | clinical_entry:370
+2024-04-30 | 13:23:00 | CLINICAL_XML | Results | clinical_entry:371
+2024-04-30 | 13:23:00 | CLINICAL_XML | Results | clinical_entry:372
+2024-04-30 | 13:23:00 | CLINICAL_XML | Results | clinical_entry:373
+2024-04-30 | 13:23:00 | CLINICAL_XML | Results | clinical_entry:374
+2024-04-30 | 13:23:00 | CLINICAL_XML | Results | clinical_entry:375
+2024-04-30 | 13:23:00 | CLINICAL_XML | Results | clinical_entry:379
+2024-04-30 | 13:23:00 | CLINICAL_XML | Results | clinical_entry:380
+2024-04-30 | 13:23:00 | CLINICAL_XML | Results | clinical_entry:381
+2024-04-30 | 13:23:00 | CLINICAL_XML | Results | clinical_entry:382
+2024-04-30 | 13:23:00 | CLINICAL_XML | Results | clinical_entry:383
+2024-04-30 | 13:23:00 | CLINICAL_XML | Results | clinical_entry:384
+2024-04-30 | 13:23:00 | CLINICAL_XML | Results | clinical_entry:385
+2024-04-30 | 13:23:00 | CLINICAL_XML | Results | clinical_entry:458
+2024-04-30 | 13:23:00 | CLINICAL_XML | Results | clinical_entry:459
+2024-04-30 | 14:47:00 | CLINICAL_XML | Medications | clinical_entry:200
+2024-04-30 | 15:30:00 | CLINICAL_XML | Medications | clinical_entry:205
+2024-04-30 | 15:49:53 | CLINICAL_XML | Gastroenterology Inpatient Progress Note | clinical_entry:551
+2024-04-30 | 15:49:53 PDT | CROSS_SOURCE | Gastroenterology consult note | LAHP_XML_001_May_16_2024_Visit_Care_Summaries_124478076.xml
+2024-04-30 | 16:19:40 | CLINICAL_XML | Medications | clinical_entry:241
+2024-04-30 | 23:55 approx. | CROSS_SOURCE | Disputed release visit | Family declaration/other previously provided materials
+2024-05-01 | 02:02:00 | CLINICAL_XML | Results | clinical_entry:436
+2024-05-01 | 02:02:00 | CLINICAL_XML | Results | clinical_entry:437
+2024-05-01 | 02:02:00 | CLINICAL_XML | Results | clinical_entry:440
+2024-05-01 | 02:02:00 | CLINICAL_XML | Results | clinical_entry:471
+2024-05-01 | 08:05:00 | CLINICAL_XML | Results | clinical_entry:361
+2024-05-01 | 11:25:00 | CLINICAL_XML | Results | clinical_entry:424
+2024-05-01 | 11:27:00 | CLINICAL_XML | Medications | clinical_entry:199
+2024-05-01 | 11:30:00 | CLINICAL_XML | Medications | clinical_entry:152
+2024-05-01 | 14:30:00 | CLINICAL_XML | Medications | clinical_entry:262
+2024-05-01 | 18:00:00 | CLINICAL_XML | Medications | clinical_entry:145
+2024-05-01 | 18:06:00 | CLINICAL_XML | Results | clinical_entry:456
+2024-05-01 |  | DOCKET | Pursuant to the request of moving party, Hearing on Motion to be Relieved as Counsel scheduled for 05/29/2024 at 01:30 PM in Spring Street Courthouse at Department 29 Not Held - Taken Off Calendar by Party on 05/01/2024 | register_of_actions:52
+2024-05-02 | 05:05:00 | CLINICAL_XML | Results | clinical_entry:359
+2024-05-02 | 05:05:00 | CLINICAL_XML | Results | clinical_entry:360
+2024-05-02 | 05:05:00 | CLINICAL_XML | Results | clinical_entry:400
+2024-05-02 | 05:05:00 | CLINICAL_XML | Results | clinical_entry:401
+2024-05-02 | 05:05:00 | CLINICAL_XML | Results | clinical_entry:402
+2024-05-02 | 07:36:00 | CLINICAL_XML | Medications | clinical_entry:98
+2024-05-02 | 07:42:00 | CLINICAL_XML | Medications | clinical_entry:263
+2024-05-02 | 07:42:00 | CLINICAL_XML | Medications | clinical_entry:264
+2024-05-02 | 07:42:00 | CLINICAL_XML | Medications | clinical_entry:265
+2024-05-02 | 07:42:00 | CLINICAL_XML | Medications | clinical_entry:266
+2024-05-02 | 07:42:00 | CLINICAL_XML | Medications | clinical_entry:267
+2024-05-02 | 10:39:00 | CLINICAL_XML | Medications | clinical_entry:177
+2024-05-02 | 13:00:00 | CLINICAL_XML | Medications | clinical_entry:219
+2024-05-02 | 14:15:24 | CLINICAL_XML | Internal Med Inpatient Progress Note | clinical_entry:550
+2024-05-02 | 14:29:00 | CLINICAL_XML | Results | clinical_entry:434
+2024-05-02 | 17:30:00 | CLINICAL_XML | Medications | clinical_entry:32
+2024-05-02 | 21:00:00 | CLINICAL_XML | Medications | clinical_entry:102
+2024-05-03 | 00:00:00 | CLINICAL_XML | Medications | clinical_entry:109
+2024-05-03 | 04:04:00 | CLINICAL_XML | Vital Signs | clinical_entry:499
+2024-05-03 | 08:00:00 | CLINICAL_XML | Medications | clinical_entry:183
+2024-05-03 | 09:53:21 | CLINICAL_XML | Internal Med Inpatient Progress Note | clinical_entry:549
+2024-05-03 | 10:00:00 | CLINICAL_XML | Medications | clinical_entry:184
+2024-05-03 | 14:00:00 | CLINICAL_XML | Medications | clinical_entry:280
+2024-05-03 | 15:28:44 | CLINICAL_XML | Rheumatology Inpatient Progress Note | clinical_entry:529
+2024-05-03 | 17:00:00 | CLINICAL_XML | Medications | clinical_entry:169
+2024-05-03 | 18:00:00 | CLINICAL_XML | Medications | clinical_entry:166
+2024-05-03 | 18:00:00 | CLINICAL_XML | Medications | clinical_entry:170
+2024-05-04 | 06:07:00 | CLINICAL_XML | Medications | clinical_entry:271
+2024-05-04 | 11:24:28 | CLINICAL_XML | Internal Med Inpatient Progress Note | clinical_entry:548
+2024-05-04 | 15:56:00 | CLINICAL_XML | Medications | clinical_entry:57
+2024-05-04 | 18:30:00 | CLINICAL_XML | Medications | clinical_entry:104
+2024-05-04 | 19:20:00 | CLINICAL_XML | Medications | clinical_entry:105
+2024-05-04 | 19:37:00 | CLINICAL_XML | Vital Signs | clinical_entry:503
+2024-05-04 | 20:00:00 | CLINICAL_XML | Medications | clinical_entry:106
+2024-05-04 | 23:25:00 | CLINICAL_XML | Medications | clinical_entry:119
+2024-05-05 | 01:05:00 | CLINICAL_XML | Results | clinical_entry:405
+2024-05-05 | 02:00:00 | CLINICAL_XML | Medications | clinical_entry:108
+2024-05-05 | 03:17:00 | CLINICAL_XML | Results | clinical_entry:347
+2024-05-05 | 03:17:00 | CLINICAL_XML | Results | clinical_entry:408
+2024-05-05 | 03:41:00 | CLINICAL_XML | Medications | clinical_entry:158
+2024-05-05 | 03:45:00 | CLINICAL_XML | Medications | clinical_entry:160
+2024-05-05 | 03:55:00 | CLINICAL_XML | Results | clinical_entry:407
+2024-05-05 | 04:00:00 | CLINICAL_XML | Medications | clinical_entry:159
+2024-05-05 | 04:00:00 | CLINICAL_XML | Medications | clinical_entry:161
+2024-05-05 | 04:05:00 | CLINICAL_XML | Medications | clinical_entry:163
+2024-05-05 | 04:18:00 | CLINICAL_XML | Medications | clinical_entry:165
+2024-05-05 | 04:30:00 | CLINICAL_XML | Medications | clinical_entry:162
+2024-05-05 | 04:30:00 | CLINICAL_XML | Medications | clinical_entry:164
+2024-05-05 | 05:00:00 | CLINICAL_XML | Medications | clinical_entry:167
+2024-05-05 | 05:00:00 | CLINICAL_XML | Medications | clinical_entry:168
+2024-05-05 | 05:30:00 | CLINICAL_XML | Medications | clinical_entry:171
+2024-05-05 | 05:30:00 | CLINICAL_XML | Medications | clinical_entry:172
+2024-05-05 | 05:53:00 | CLINICAL_XML | Procedures | clinical_entry:337
+2024-05-05 | 06:01:00 | CLINICAL_XML | Medications | clinical_entry:173
+2024-05-05 | 06:25:00 | CLINICAL_XML | Medications | clinical_entry:174
+2024-05-05 | 06:27:00 | CLINICAL_XML | Medications | clinical_entry:175
+2024-05-05 | 06:45:00 | CLINICAL_XML | Vital Signs | clinical_entry:496
+2024-05-05 | 06:50:00 | CLINICAL_XML | Results | clinical_entry:474
+2024-05-05 | 06:51:00 | CLINICAL_XML | Medications | clinical_entry:186
+2024-05-05 | 06:52:00 | CLINICAL_XML | Medications | clinical_entry:187
+2024-05-05 | 07:12:00 | CLINICAL_XML | Medications | clinical_entry:188
+2024-05-05 | 07:30:00 | CLINICAL_XML | Medications | clinical_entry:190
+2024-05-05 | 07:31:00 | CLINICAL_XML | Results | clinical_entry:410
+2024-05-05 | 07:31:00 | CLINICAL_XML | Results | clinical_entry:418
+2024-05-05 | 07:31:00 | CLINICAL_XML | Results | clinical_entry:419
+2024-05-05 | 08:00:00 | CLINICAL_XML | Medications | clinical_entry:107
+2024-05-05 | 08:00:00 | CLINICAL_XML | Medications | clinical_entry:191
+2024-05-05 | 09:00:00 | CLINICAL_XML | Medications | clinical_entry:192
+2024-05-05 | 09:09:00 | CLINICAL_XML | Medications | clinical_entry:193
+2024-05-05 | 09:09:00 | CLINICAL_XML | Medications | clinical_entry:194
+2024-05-05 | 09:10:00 | CLINICAL_XML | Results | clinical_entry:409
+2024-05-05 | 09:41:00 | CLINICAL_XML | Results | clinical_entry:420
+2024-05-05 | 09:41:00 | CLINICAL_XML | Results | clinical_entry:421
+2024-05-05 | 09:41:00 | CLINICAL_XML | Results | clinical_entry:430
+2024-05-05 | 10:00:00 | CLINICAL_XML | Medications | clinical_entry:195
+2024-05-05 | 10:37:00 | CLINICAL_XML | Medications | clinical_entry:211
+2024-05-05 | 11:30:00 | CLINICAL_XML | Medications | clinical_entry:216
+2024-05-05 | 12:00:00 | CLINICAL_XML | Medications | clinical_entry:218
+2024-05-05 | 13:05:00 | CLINICAL_XML | Medications | clinical_entry:230
+2024-05-05 | 13:13:00 | CLINICAL_XML | Results | clinical_entry:433
+2024-05-05 | 14:00:00 | CLINICAL_XML | Medications | clinical_entry:229
+2024-05-05 | 14:02:54 | CLINICAL_XML | Results | clinical_entry:484
+2024-05-05 | 14:05:35 | CLINICAL_XML | Results | clinical_entry:485
+2024-05-05 | 14:09:35 | CLINICAL_XML | Results | clinical_entry:486
+2024-05-05 | 14:13:22 | CLINICAL_XML | Results | clinical_entry:487
+2024-05-05 | 14:30:00 | CLINICAL_XML | Medications | clinical_entry:239
+2024-05-05 | 17:00:00 | CLINICAL_XML | Medications | clinical_entry:231
+2024-05-05 | 18:00:00 | CLINICAL_XML | Medications | clinical_entry:242
+2024-05-05 | 18:00:00 | CLINICAL_XML | Medications | clinical_entry:243
+2024-05-05 | 20:30:00 | CLINICAL_XML | Results | clinical_entry:438
+2024-05-05 | 20:30:00 | CLINICAL_XML | Results | clinical_entry:439
+2024-05-06 | 04:11:00 | CLINICAL_XML | Results | clinical_entry:465
+2024-05-06 | 04:12:25 | CLINICAL_XML | Results | clinical_entry:492
+2024-05-06 | 06:00:00 | CLINICAL_XML | Medications | clinical_entry:213
+2024-05-06 | 06:55:15 | CLINICAL_XML | Results | clinical_entry:493
+2024-05-06 | 07:40:28 | CLINICAL_XML | ENT Inpatient Progress Note | clinical_entry:531
+2024-05-06 | 12:00:00 | CLINICAL_XML | Medications | clinical_entry:212
+2024-05-06 | 12:14:00 | CLINICAL_XML | Results | clinical_entry:406
+2024-05-06 | 12:14:00 | CLINICAL_XML | Results | clinical_entry:475
+2024-05-06 | 12:14:00 | CLINICAL_XML | Results | clinical_entry:476
+2024-05-06 | 12:43:00 | CLINICAL_XML | Medications | clinical_entry:283
+2024-05-06 | 14:00:00 | CLINICAL_XML | Medications | clinical_entry:27
+2024-05-06 | 14:02:00 | CLINICAL_XML | Medications | clinical_entry:268
+2024-05-06 | 14:02:00 | CLINICAL_XML | Medications | clinical_entry:269
+2024-05-06 | 15:05:00 | CLINICAL_XML | Medications | clinical_entry:40
+2024-05-06 | 15:59:00 | CLINICAL_XML | Medications | clinical_entry:93
+2024-05-06 | 16:00:00 | CLINICAL_XML | Medications | clinical_entry:94
+2024-05-06 | 16:00:00 | CLINICAL_XML | Medications | clinical_entry:95
+2024-05-06 | 17:00:00 | CLINICAL_XML | Medications | clinical_entry:96
+2024-05-06 | 17:00:00 | CLINICAL_XML | Medications | clinical_entry:97
+2024-05-06 | 17:00:00 | CLINICAL_XML | Medications | clinical_entry:99
+2024-05-06 | 18:30:00 | CLINICAL_XML | Medications | clinical_entry:29
+2024-05-06 | 20:50:00 | CLINICAL_XML | Results | clinical_entry:340
+2024-05-06 | 21:30:00 | CLINICAL_XML | Medications | clinical_entry:210
+2024-05-06 | 22:00:00 | CLINICAL_XML | Medications | clinical_entry:214
+2024-05-06 | 23:30:00 | CLINICAL_XML | Medications | clinical_entry:176
+2024-05-07 | 00:05:00 | CLINICAL_XML | Medications | clinical_entry:28
+2024-05-07 | 02:57:00 | CLINICAL_XML | Results | clinical_entry:341
+2024-05-07 | 02:57:00 | CLINICAL_XML | Results | clinical_entry:342
+2024-05-07 | 04:54:00 | CLINICAL_XML | Results | clinical_entry:353
+2024-05-07 | 04:54:00 | CLINICAL_XML | Results | clinical_entry:426
+2024-05-07 | 06:00:00 | CLINICAL_XML | Medications | clinical_entry:185
+2024-05-07 | 06:00:00 | CLINICAL_XML | Medications | clinical_entry:215
+2024-05-07 | 07:30:00 | CLINICAL_XML | Medications | clinical_entry:217
+2024-05-07 | 09:30:00 | CLINICAL_XML | Medications | clinical_entry:274
+2024-05-07 | 09:45:00 | CLINICAL_XML | Medications | clinical_entry:279
+2024-05-07 | 09:53:34 | CLINICAL_XML | Infectious Disease Inpt. Progress Note | clinical_entry:543
+2024-05-07 | 16:00:00 | CLINICAL_XML | Medications | clinical_entry:101
+2024-05-07 | 17:59:00 | CLINICAL_XML | Medications | clinical_entry:189
+2024-05-07 | 18:14:00 | CLINICAL_XML | Results | clinical_entry:338
+2024-05-07 | 19:30:00 | CLINICAL_XML | Medications | clinical_entry:197
+2024-05-08 | 04:24:00 | CLINICAL_XML | Results | clinical_entry:345
+2024-05-08 | 04:24:00 | CLINICAL_XML | Results | clinical_entry:346
+2024-05-08 | 04:24:00 | CLINICAL_XML | Results | clinical_entry:428
+2024-05-08 | 04:24:00 | CLINICAL_XML | Results | clinical_entry:429
+2024-05-08 | 08:30:00 | CLINICAL_XML | Medications | clinical_entry:100
+2024-05-08 | 10:22:20 | CLINICAL_XML | Results | clinical_entry:490
+2024-05-08 | 11:32:00 | CLINICAL_XML | Medications | clinical_entry:208
+2024-05-08 | 11:36:00 | CLINICAL_XML | Medications | clinical_entry:209
+2024-05-08 | 11:48:00 | CLINICAL_XML | Results | clinical_entry:425
+2024-05-08 | 11:48:00 | CLINICAL_XML | Results | clinical_entry:477
+2024-05-08 | 11:48:00 | CLINICAL_XML | Results | clinical_entry:478
+2024-05-08 | 11:48:00 | CLINICAL_XML | Results | clinical_entry:479
+2024-05-08 | 12:57:09 | CLINICAL_XML | Infectious Disease Inpt. Progress Note | clinical_entry:542
+2024-05-08 | 13:00:00 | CLINICAL_XML | Medications | clinical_entry:226
+2024-05-08 | 13:00:00 | CLINICAL_XML | Medications | clinical_entry:228
+2024-05-08 | 14:00:00 | CLINICAL_XML | Medications | clinical_entry:270
+2024-05-08 | 16:00:00 | CLINICAL_XML | Medications | clinical_entry:227
+2024-05-08 | 17:00:00 | CLINICAL_XML | Medications | clinical_entry:31
+2024-05-08 | 18:41:00 | CLINICAL_XML | Medications | clinical_entry:65
+2024-05-08 | 19:27:00 | CLINICAL_XML | Results | clinical_entry:422
+2024-05-09 |  | CROSS_SOURCE | Notice of Settlement of Entire Case | Prior supplied court filing
+2024-05-09 | 04:00:00 | CLINICAL_XML | Vital Signs | clinical_entry:497
+2024-05-09 | 05:24:00 | CLINICAL_XML | Results | clinical_entry:363
+2024-05-09 | 05:24:00 | CLINICAL_XML | Results | clinical_entry:364
+2024-05-09 | 05:24:00 | CLINICAL_XML | Results | clinical_entry:393
+2024-05-09 | 05:24:00 | CLINICAL_XML | Results | clinical_entry:394
+2024-05-09 | 06:00:00 | CLINICAL_XML | Results | clinical_entry:391
+2024-05-09 | 06:24:00 | CLINICAL_XML | Results | clinical_entry:392
+2024-05-09 | 06:24:00 | CLINICAL_XML | Results | clinical_entry:395
+2024-05-09 | 06:24:00 | CLINICAL_XML | Results | clinical_entry:414
+2024-05-09 | 08:41:00 | CLINICAL_XML | Results | clinical_entry:416
+2024-05-09 | 09:43:19 | CLINICAL_XML | Neurology Inpatient Progress Note | clinical_entry:554
+2024-05-09 | 09:43:19 PDT | CROSS_SOURCE | Neurology progress note | LAHP_XML_001_May_16_2024_Visit_Care_Summaries_124478076.xml
+2024-05-09 | 10:00:00 | CLINICAL_XML | Medications | clinical_entry:222
+2024-05-09 | 10:10:41 | CLINICAL_XML | Results | clinical_entry:488
+2024-05-09 | 10:25:00 | CLINICAL_XML | Results | clinical_entry:362
+2024-05-09 | 10:25:00 | CLINICAL_XML | Results | clinical_entry:417
+2024-05-09 | 10:25:00 | CLINICAL_XML | Results | clinical_entry:443
+2024-05-09 | 10:25:00 | CLINICAL_XML | Results | clinical_entry:444
+2024-05-09 | 11:30:00 | CLINICAL_XML | Medications | clinical_entry:253
+2024-05-09 | 11:38:58 | CLINICAL_XML | Results | clinical_entry:489
+2024-05-09 | 12:00:00 | CLINICAL_XML | Medications | clinical_entry:251
+2024-05-09 | 12:00:00 | CLINICAL_XML | Medications | clinical_entry:252
+2024-05-09 | 12:40:00 | CLINICAL_XML | Results | clinical_entry:472
+2024-05-09 | 12:40:00 | CLINICAL_XML | Results | clinical_entry:473
+2024-05-09 | 12:40:00 | CLINICAL_XML | Results | clinical_entry:480
+2024-05-09 | 13:29:35 | CLINICAL_XML | Infectious Disease Inpt. Progress Note | clinical_entry:541
+2024-05-09 | 15:05:00 | CLINICAL_XML | Results | clinical_entry:404
+2024-05-09 | 15:05:00 | CLINICAL_XML | Results | clinical_entry:442
+2024-05-09 | 15:41:00 | DOCKET | Court Order | past_proceedings:30
+2024-05-09 | 17:00:00 | CLINICAL_XML | Medications | clinical_entry:30
+2024-05-09 | 18:00:00 | CLINICAL_XML | Medications | clinical_entry:295
+2024-05-09 | 23:08:00 | CLINICAL_XML | Medications | clinical_entry:153
+2024-05-09 | 23:08:00 | CLINICAL_XML | Medications | clinical_entry:154
+2024-05-09 | 23:08:00 | CLINICAL_XML | Medications | clinical_entry:155
+2024-05-09 | 23:08:00 | CLINICAL_XML | Medications | clinical_entry:156
+2024-05-09 | 23:08:00 | CLINICAL_XML | Medications | clinical_entry:157
+2024-05-09 |  | DOCKET | Certificate of Mailing for (Court Order re: Notice of Settlement of Entire Case) of 05/09/2024 | documents_filed:12
+2024-05-09 |  | DOCKET | Minute Order (Court Order re: Notice of Settlement of Entire Case) | documents_filed:13
+2024-05-09 |  | DOCKET | Notice of Settlement of Entire Case | documents_filed:14
+2024-05-09 |  | DOCKET | Notice of Settlement; Filed by: Laura Alcaraz (Plaintiff); Laura Elisa Rodriguez (Plaintiff); Vacate Future Dates: No | register_of_actions:45
+2024-05-09 |  | DOCKET | Order to Show Cause Re: Dismissal (Settlement) scheduled for 06/25/2024 at 08:30 AM in Spring Street Courthouse at Department 29 | register_of_actions:46
+2024-05-09 |  | DOCKET | Minute Order (Court Order re: Notice of Settlement of Entire Case) | register_of_actions:47
+2024-05-09 |  | DOCKET | Certificate of Mailing for (Court Order re: Notice of Settlement of Entire Case) of 05/09/2024; Filed by: Clerk | register_of_actions:48
+2024-05-09 |  | DOCKET | On the Court's own motion, Jury Trial scheduled for 05/31/2024 at 08:30 AM in Spring Street Courthouse at Department 29 Not Held - Advanced and Vacated on 05/09/2024 | register_of_actions:49
+2024-05-09 |  | DOCKET | On the Court's own motion, Final Status Conference scheduled for 05/17/2024 at 10:00 AM in Spring Street Courthouse at Department 29 Not Held - Advanced and Vacated on 05/09/2024 | register_of_actions:50
+2024-05-09 |  | DOCKET | On the Court's own motion, Hearing on Motion to be Relieved as Counsel scheduled for 05/29/2024 at 01:30 PM in Spring Street Courthouse at Department 29 Not Held - Advanced and Vacated on 05/09/2024 | register_of_actions:51
+2024-05-10 | 01:11:00 | CLINICAL_XML | Medications | clinical_entry:275
+2024-05-10 | 01:11:00 | CLINICAL_XML | Medications | clinical_entry:276
+2024-05-10 | 01:29:00 | CLINICAL_XML | Results | clinical_entry:461
+2024-05-10 | 05:00:00 | CLINICAL_XML | Vital Signs | clinical_entry:509
+2024-05-10 | 06:00:00 | CLINICAL_XML | Medications | clinical_entry:224
+2024-05-10 | 06:00:00 | CLINICAL_XML | Medications | clinical_entry:260
+2024-05-10 | 08:37:30 | CLINICAL_XML | Neurology Inpatient Progress Note | clinical_entry:553
+2024-05-10 | 10:00:00 | CLINICAL_XML | Medications | clinical_entry:294
+2024-05-10 | 15:33:20 | CLINICAL_XML | NutritionDietary Inpatient Progress Note | clinical_entry:534
+2024-05-10 | 16:00:00 | CLINICAL_XML | Medications | clinical_entry:207
+2024-05-10 | 16:00:00 | CLINICAL_XML | Medications | clinical_entry:238
+2024-05-10 | 18:00:00 | CLINICAL_XML | Medications | clinical_entry:223
+2024-05-10 | 20:30:07 | CLINICAL_XML | Results | clinical_entry:491
+2024-05-10 | 21:58:00 | CLINICAL_XML | Results | clinical_entry:469
+2024-05-10 | 21:58:00 | CLINICAL_XML | Results | clinical_entry:470
+2024-05-10 | 23:00:00 | CLINICAL_XML | Medications | clinical_entry:285
+2024-05-10 | 23:30:00 | CLINICAL_XML | Medications | clinical_entry:287
+2024-05-11 | 04:08:00 | CLINICAL_XML | Results | clinical_entry:412
+2024-05-11 | 15:16:00 | CLINICAL_XML | Results | clinical_entry:396
+2024-05-11 | 15:16:00 | CLINICAL_XML | Results | clinical_entry:397
+2024-05-11 | 15:16:00 | CLINICAL_XML | Results | clinical_entry:398
+2024-05-11 | 21:25:00 | CLINICAL_XML | Results | clinical_entry:457
+2024-05-11 | 23:57:00 | CLINICAL_XML | Results | clinical_entry:460
+2024-05-12 | 04:41:00 | CLINICAL_XML | Results | clinical_entry:339
+2024-05-12 | 04:41:00 | CLINICAL_XML | Results | clinical_entry:343
+2024-05-12 | 04:41:00 | CLINICAL_XML | Results | clinical_entry:354
+2024-05-12 | 04:41:00 | CLINICAL_XML | Results | clinical_entry:463
+2024-05-12 | 04:41:00 | CLINICAL_XML | Results | clinical_entry:464
+2024-05-12 | 08:00:00 | CLINICAL_XML | Medications | clinical_entry:39
+2024-05-12 | 08:00:00 | CLINICAL_XML | Medications | clinical_entry:147
+2024-05-12 | 09:55:00 | CLINICAL_XML | Medications | clinical_entry:51
+2024-05-12 | 09:55:00 | CLINICAL_XML | Medications | clinical_entry:52
+2024-05-12 | 10:06:00 | CLINICAL_XML | Vital Signs | clinical_entry:500
+2024-05-12 | 10:49:00 | CLINICAL_XML | Results | clinical_entry:348
+2024-05-12 | 10:49:00 | CLINICAL_XML | Results | clinical_entry:349
+2024-05-12 | 10:49:00 | CLINICAL_XML | Results | clinical_entry:350
+2024-05-12 | 14:00:00 | CLINICAL_XML | Medications | clinical_entry:53
+2024-05-12 | 15:06:00 | CLINICAL_XML | Medications | clinical_entry:103
+2024-05-12 | 16:07:58 | CLINICAL_XML | Nephrology Inpatient Progress Note | clinical_entry:540
+2024-05-12 | 16:43:00 | CLINICAL_XML | Results | clinical_entry:352
+2024-05-13 | 04:10:00 | CLINICAL_XML | Results | clinical_entry:344
+2024-05-13 | 04:10:00 | CLINICAL_XML | Results | clinical_entry:351
+2024-05-13 | 04:10:00 | CLINICAL_XML | Results | clinical_entry:413
+2024-05-13 | 04:10:00 | CLINICAL_XML | Results | clinical_entry:453
+2024-05-13 | 04:10:00 | CLINICAL_XML | Results | clinical_entry:454
+2024-05-13 | 04:10:00 | CLINICAL_XML | Results | clinical_entry:455
+2024-05-13 | 07:57:19 | CLINICAL_XML | Nephrology Inpatient Progress Note | clinical_entry:539
+2024-05-13 | 08:01:45 | CLINICAL_XML | ENT Inpatient Progress Note | clinical_entry:530
+2024-05-13 | 08:49:00 | CLINICAL_XML | Medications | clinical_entry:235
+2024-05-13 | 09:24:00 | CLINICAL_XML | Medications | clinical_entry:41
+2024-05-13 | 09:24:00 | CLINICAL_XML | Medications | clinical_entry:42
+2024-05-13 | 09:24:00 | CLINICAL_XML | Medications | clinical_entry:43
+2024-05-13 | 09:24:00 | CLINICAL_XML | Medications | clinical_entry:44
+2024-05-13 | 09:24:00 | CLINICAL_XML | Medications | clinical_entry:45
+2024-05-13 | 09:59:20 | CLINICAL_XML | Neurology Inpatient Progress Note | clinical_entry:552
+2024-05-13 | 10:00:00 | CLINICAL_XML | Medications | clinical_entry:232
+2024-05-13 | 10:00:00 | CLINICAL_XML | Medications | clinical_entry:233
+2024-05-13 | 10:00:00 | CLINICAL_XML | Medications | clinical_entry:234
+2024-05-13 | 10:00:00 | CLINICAL_XML | Medications | clinical_entry:237
+2024-05-13 | 10:00:00 | CLINICAL_XML | Medications | clinical_entry:277
+2024-05-13 | 10:00:00 | CLINICAL_XML | Medications | clinical_entry:278
+2024-05-13 | 13:30:00 | CLINICAL_XML | Medications | clinical_entry:68
+2024-05-13 | 13:30:00 | CLINICAL_XML | Medications | clinical_entry:69
+2024-05-13 | 13:35:00 | CLINICAL_XML | Results | clinical_entry:355
+2024-05-13 | 13:35:00 | CLINICAL_XML | Results | clinical_entry:356
+2024-05-13 | 16:38:24 | CLINICAL_XML | NutritionDietary Inpatient Progress Note | clinical_entry:533
+2024-05-13 | 17:06:00 | CLINICAL_XML | Results | clinical_entry:377
+2024-05-13 | 17:06:00 | CLINICAL_XML | Results | clinical_entry:378
+2024-05-13 | 17:06:00 | CLINICAL_XML | Results | clinical_entry:390
+2024-05-13 | 17:09:00 | CLINICAL_XML | Results | clinical_entry:481
+2024-05-13 | 17:09:00 | CLINICAL_XML | Results | clinical_entry:482
+2024-05-13 | 17:57:00 | CLINICAL_XML | Results | clinical_entry:415
+2024-05-13 | 18:00:00 | CLINICAL_XML | Medications | clinical_entry:281
+2024-05-13 | 18:52:00 | CLINICAL_XML | Results | clinical_entry:483
+2024-05-13 | 23:51:00 | CLINICAL_XML | Results | clinical_entry:435
+2024-05-14 | 04:13:00 | CLINICAL_XML | Results | clinical_entry:386
+2024-05-14 | 04:13:00 | CLINICAL_XML | Results | clinical_entry:387
+2024-05-14 | 04:13:00 | CLINICAL_XML | Results | clinical_entry:388
+2024-05-14 | 04:13:00 | CLINICAL_XML | Results | clinical_entry:389
+2024-05-14 | 04:13:00 | CLINICAL_XML | Results | clinical_entry:427
+2024-05-14 | 04:13:00 | CLINICAL_XML | Results | clinical_entry:441
+2024-05-14 | 04:13:00 | CLINICAL_XML | Results | clinical_entry:462
+2024-05-14 | 05:49:00 | CLINICAL_XML | Results | clinical_entry:446
+2024-05-14 | 06:00:00 | CLINICAL_XML | Medications | clinical_entry:236
+2024-05-14 | 06:00:00 | CLINICAL_XML | Medications | clinical_entry:282
+2024-05-14 | 09:30:00 | CLINICAL_XML | Results | clinical_entry:466
+2024-05-14 | 10:29:58 | CLINICAL_XML | Nephrology Inpatient Progress Note | clinical_entry:538
+2024-05-14 | 10:36:00 | CLINICAL_XML | Medications | clinical_entry:178
+2024-05-14 | 10:37:00 | CLINICAL_XML | Medications | clinical_entry:179
+2024-05-14 | 10:42:00 | CLINICAL_XML | Medications | clinical_entry:181
+2024-05-14 | 10:42:00 | CLINICAL_XML | Medications | clinical_entry:182
+2024-05-14 | 10:50:07 | CLINICAL_XML | Intensive Care Unit Daily Progress Note | clinical_entry:537
+2024-05-14 | 12:10:00 | CLINICAL_XML | Results | clinical_entry:431
+2024-05-14 | 12:40:00 | CLINICAL_XML | Results | clinical_entry:411
+2024-05-14 | 12:40:00 | CLINICAL_XML | Results | clinical_entry:432
+2024-05-14 | 13:50:00 | CLINICAL_XML | Medications | clinical_entry:240
+2024-05-14 | 14:15:00 | CLINICAL_XML | Medications | clinical_entry:272
+2024-05-14 | 14:15:00 | CLINICAL_XML | Medications | clinical_entry:273
+2024-05-14 | 15:06:00 | CLINICAL_XML | Medications | clinical_entry:284
+2024-05-14 | 18:00:00 | CLINICAL_XML | Medications | clinical_entry:180
+2024-05-14 | 20:00:00 | CLINICAL_XML | Vital Signs | clinical_entry:506
+2024-05-15 | 01:00:00 | CLINICAL_XML | Vital Signs | clinical_entry:511
+2024-05-15 | 02:00:00 | CLINICAL_XML | Vital Signs | clinical_entry:494
+2024-05-15 | 09:00:00 | CLINICAL_XML | Vital Signs | clinical_entry:513
+2024-05-15 | 12:00:00 | CLINICAL_XML | Vital Signs | clinical_entry:498
+2024-05-15 | 16:31:47 | CLINICAL_XML | Intensive Care Unit Daily Progress Note | clinical_entry:536
+2024-05-15 | 16:32:00 | CLINICAL_XML | Medications | clinical_entry:84
+2024-05-15 | 16:33:00 | CLINICAL_XML | Medications | clinical_entry:86
+2024-05-15 | 17:00:00 | CLINICAL_XML | Medications | clinical_entry:85
+2024-05-15 | 18:46:10 | CLINICAL_XML | Respiratory therapy Hospital Progress note | clinical_entry:546
+2024-05-15 | 20:00:00 | CLINICAL_XML | Vital Signs | clinical_entry:495
+2024-05-15 | 20:06:00 | CLINICAL_XML | Vital Signs | clinical_entry:508
+2024-05-16 | 02:00:00 | CLINICAL_XML | Functional Status | clinical_entry:518
+2024-05-16 | 04:00:00 | CLINICAL_XML | Functional Status | clinical_entry:519
+2024-05-16 | 06:00:00 | CLINICAL_XML | Functional Status | clinical_entry:517
+2024-05-16 | 06:19:00 | CLINICAL_XML | Vital Signs | clinical_entry:504
+2024-05-16 | 06:22:05 | CLINICAL_XML | Respiratory therapy Hospital Progress note | clinical_entry:545
+2024-05-16 | 08:00:00 | CLINICAL_XML | Vital Signs | clinical_entry:515
+2024-05-16 | 08:58:07 | CLINICAL_XML | NutritionDietary Inpatient Progress Note | clinical_entry:532
+2024-05-16 | 09:00:00 | CLINICAL_XML | Vital Signs | clinical_entry:512
+2024-05-16 | 12:00:00 | CLINICAL_XML | Functional Status | clinical_entry:516
+2024-05-16 | 13:00:00 | CLINICAL_XML | Vital Signs | clinical_entry:501
+2024-05-16 | 14:00:00 | CLINICAL_XML | Vital Signs | clinical_entry:507
+2024-05-16 | 14:00:00 | CLINICAL_XML | Functional Status | clinical_entry:521
+2024-05-16 | 15:14:34 | CLINICAL_XML | Intensive Care Unit Daily Progress Note | clinical_entry:535
+2024-05-16 | 15:52:00 | CLINICAL_XML | Vital Signs | clinical_entry:505
+2024-05-16 | 16:00:00 | CLINICAL_XML | Functional Status | clinical_entry:520
+2024-05-16 | 16:03 PDT | CROSS_SOURCE | Encounter end and death recorded | LAHP_XML_001_May_16_2024_Visit_Care_Summaries_124478076.xml
+2024-05-16 | 19:08:33 | CLINICAL_XML | Respiratory therapy Hospital Progress note | clinical_entry:544
+2024-05-17 | 10:00:00 | DOCKET | Final Status Conference | past_proceedings:29
+2024-05-28 | 13:30:00 | DOCKET | Hearing on Motion to be Relieved as Counsel | past_proceedings:28
+2024-05-29 | 13:30:00 | DOCKET | Hearing on Motion to be Relieved as Counsel | past_proceedings:26
+2024-05-29 | 13:30:00 | DOCKET | Hearing on Motion to be Relieved as Counsel | past_proceedings:27
+2024-05-31 | 08:30:00 | DOCKET | Jury Trial | past_proceedings:25
+2024-06-25 | 08:30:00 | DOCKET | Order to Show Cause Re: Dismissal (Settlement) | past_proceedings:24
+2024-06-25 |  | DOCKET | Minute Order (Order to Show Cause Re: Dismissal (Settlement)) | documents_filed:11
+2024-06-25 |  | DOCKET | Order to Show Cause Re: Dismissal (Settlement) scheduled for 08/28/2024 at 08:30 AM in Spring Street Courthouse at Department 29 | register_of_actions:42
+2024-06-25 |  | DOCKET | Minute Order (Order to Show Cause Re: Dismissal (Settlement)) | register_of_actions:43
+2024-06-25 |  | DOCKET | Pursuant to the request of plaintiff, Order to Show Cause Re: Dismissal (Settlement) scheduled for 06/25/2024 at 08:30 AM in Spring Street Courthouse at Department 29 Not Held - Continued - Party's Motion was rescheduled to 08/28/2024 08:30 AM | register_of_actions:44
+2024-08-28 | 08:30:00 | DOCKET | Order to Show Cause Re: Dismissal (Settlement) | past_proceedings:23
+2024-08-28 |  | DOCKET | Minute Order (Order to Show Cause Re: Dismissal (Settlement)) | documents_filed:10
+2024-08-28 |  | DOCKET | Order to Show Cause Re: Dismissal (Settlement) scheduled for 12/17/2024 at 08:30 AM in Spring Street Courthouse at Department 29 | register_of_actions:39
+2024-08-28 |  | DOCKET | Minute Order (Order to Show Cause Re: Dismissal (Settlement)) | register_of_actions:40
+2024-08-28 |  | DOCKET | Pursuant to the request of plaintiff, Order to Show Cause Re: Dismissal (Settlement) scheduled for 08/28/2024 at 08:30 AM in Spring Street Courthouse at Department 29 Not Held - Continued - Party's Motion was rescheduled to 12/17/2024 08:30 AM | register_of_actions:41
+2024-12-03 |  | DOCKET | Request for Dismissal | documents_filed:9
+2024-12-03 |  | DOCKET | Request for Dismissal; Filed by: Laura Alcaraz (Plaintiff); Laura Elisa Rodriguez (Plaintiff); As to: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:38
+2024-12-04 |  | DOCKET | Updated -- Request for Dismissal: Filed By: Laura Alcaraz (Plaintiff),Laura Elisa Rodriguez (Plaintiff); Result: Entered ; Result Date: 12/04/2024 | register_of_actions:35
+2024-12-04 |  | DOCKET | On the Complaint filed by Laura Alcaraz, et al. on 09/21/2020, entered Request for Dismissal with prejudice filed by Laura Elisa Rodriguez as to the entire action | register_of_actions:36
+2024-12-04 |  | DOCKET | Order to Show Cause Re: Dismissal (Settlement) scheduled for 12/17/2024 at 08:30 AM in Spring Street Courthouse at Department 29 Not Held - Vacated by Court on 12/04/2024 | register_of_actions:37
+2024-12-17 | 08:30:00 | DOCKET | Order to Show Cause Re: Dismissal (Settlement) | past_proceedings:22
+2025-12-01 |  | DOCKET | Case reassigned to Spring Street Courthouse in Department 27 - Hon. Cindy PÂ¿nuco; Reason: Other | register_of_actions:34
+2025-12-02 |  | DOCKET | Motion to Vacate Dismissal | documents_filed:8
+2025-12-02 |  | DOCKET | Motion to Vacate Dismissal; Filed by: Laura Alcaraz (Plaintiff); Laura Elisa Rodriguez (Plaintiff) | register_of_actions:33
+2025-12-09 |  | DOCKET | Hearing on Motion to Vacate Dismissal scheduled for 12/26/2025 at 01:30 PM in Spring Street Courthouse at Department 27 Not Held - Vacated by Court on 12/09/2025 | register_of_actions:32
+2025-12-26 | 13:30:00 | DOCKET | Hearing on Motion to Vacate | past_proceedings:21
+2026-01-03 |  | DOCKET | Hearing on Motion for Attorney Fees scheduled for 02/04/2026 at 01:30 PM in Spring Street Courthouse at Department 27 Not Held - Vacated by Court on 01/03/2026 | register_of_actions:25
+2026-01-03 |  | DOCKET | Hearing on Motion to Strike (not anti-SLAPP) - without Demurrer scheduled for 02/03/2026 at 01:30 PM in Spring Street Courthouse at Department 27 Not Held - Vacated by Court on 01/03/2026 | register_of_actions:26
+2026-01-03 |  | DOCKET | Hearing on Motion to Strike (not anti-SLAPP) - without Demurrer scheduled for 02/04/2026 at 01:30 PM in Spring Street Courthouse at Department 27 Not Held - Vacated by Court on 01/03/2026 | register_of_actions:27
+2026-01-03 |  | DOCKET | Hearing on Motion to Set Aside/Vacate Dismissal (CCP 473) scheduled for 02/04/2026 at 01:30 PM in Spring Street Courthouse at Department 27 Not Held - Vacated by Court on 01/03/2026 | register_of_actions:28
+2026-01-03 |  | DOCKET | Hearing on Motion to Join Necessary Party scheduled for 02/03/2026 at 01:30 PM in Spring Street Courthouse at Department 27 Not Held - Vacated by Court on 01/03/2026 | register_of_actions:29
+2026-01-03 |  | DOCKET | Hearing on Motion to Set Aside/Vacate Default and Default Judgment (CCP 473.5) scheduled for 02/03/2026 at 01:30 PM in Spring Street Courthouse at Department 27 Not Held - Vacated by Court on 01/03/2026 | register_of_actions:30
+2026-01-03 |  | DOCKET | Hearing on Motion to Join Necessary Party scheduled for 02/03/2026 at 01:30 PM in Spring Street Courthouse at Department 27 Not Held - Vacated by Court on 01/03/2026 | register_of_actions:31
+2026-01-06 |  | DOCKET | Hearing on Motion to Continue Trial scheduled for 02/03/2026 at 01:30 PM in Spring Street Courthouse at Department 27 Not Held - Vacated by Court on 01/06/2026 | register_of_actions:21
+2026-01-06 |  | DOCKET | Hearing on Motion to Join Necessary Party scheduled for 02/04/2026 at 01:30 PM in Spring Street Courthouse at Department 27 Not Held - Vacated by Court on 01/06/2026 | register_of_actions:22
+2026-01-06 |  | DOCKET | Hearing on Motion to Disqualify Counsel scheduled for 02/03/2026 at 01:30 PM in Spring Street Courthouse at Department 27 Not Held - Vacated by Court on 01/06/2026 | register_of_actions:23
+2026-01-06 |  | DOCKET | Hearing on Motion to Continue Trial scheduled for 12/01/2027 at 01:30 PM in Spring Street Courthouse at Department 27 Not Held - Vacated by Court on 01/06/2026 | register_of_actions:24
+2026-01-28 |  | DOCKET | Hearing on Application for Writ of Attachment (CCP 484.040) scheduled for 04/10/2026 at 08:30 AM in Van Nuys Courthouse East at Department A Not Held - Vacated by Court on 01/28/2026 | register_of_actions:17
+2026-01-28 |  | DOCKET | Hearing on Motion to Confirm Arbitration Award scheduled for 02/20/2026 at 01:30 PM in Spring Street Courthouse at Department 27 Not Held - Vacated by Court on 01/28/2026 | register_of_actions:18
+2026-01-28 |  | DOCKET | Hearing on Motion to Disqualify Counsel scheduled for 02/17/2026 at 01:30 PM in Spring Street Courthouse at Department 27 Not Held - Vacated by Court on 01/28/2026 | register_of_actions:19
+2026-01-28 |  | DOCKET | Hearing on Motion to Transfer scheduled for 02/17/2026 at 01:30 PM in Spring Street Courthouse at Department 27 Not Held - Vacated by Court on 01/28/2026 | register_of_actions:20
+2026-01-29 |  | DOCKET | Hearing on Motion to Join Necessary Party scheduled for 02/24/2026 at 01:30 PM in Spring Street Courthouse at Department 27 Not Held - Vacated by Court on 01/29/2026 | register_of_actions:16
+2026-02-03 | 13:30:00 | DOCKET | Hearing on Motion to Continue Trial | past_proceedings:15
+2026-02-03 | 13:30:00 | DOCKET | Hearing on Motion to Disqualify Counsel | past_proceedings:16
+2026-02-03 | 13:30:00 | DOCKET | Hearing on Motion to Join Necessary Party | past_proceedings:17
+2026-02-03 | 13:30:00 | DOCKET | Hearing on Motion to Join Necessary Party | past_proceedings:18
+2026-02-03 | 13:30:00 | DOCKET | Hearing on Motion to Set Aside/Vacate Default and Default Judgment (CCP 473.5) | past_proceedings:19
+2026-02-03 | 13:30:00 | DOCKET | Hearing on Motion to Strike (not anti-SLAPP) - without Demurrer | past_proceedings:20
+2026-02-04 | 13:30:00 | DOCKET | Hearing on Motion for Attorney Fees | past_proceedings:11
+2026-02-04 | 13:30:00 | DOCKET | Hearing on Motion to Join Necessary Party | past_proceedings:12
+2026-02-04 | 13:30:00 | DOCKET | Hearing on Motion to Set Aside/Vacate Dismissal (CCP 473) | past_proceedings:13
+2026-02-04 | 13:30:00 | DOCKET | Hearing on Motion to Strike (not anti-SLAPP) - without Demurrer | past_proceedings:14
+2026-02-14 |  | DOCKET | Hearing on Motion to be Relieved as Counsel scheduled for 03/03/2026 at 01:30 PM in Spring Street Courthouse at Department 27 Not Held - Vacated by Court on 02/14/2026 | register_of_actions:15
+2026-02-17 | 13:30:00 | DOCKET | Hearing on Motion to Disqualify Counsel | past_proceedings:9
+2026-02-17 | 13:30:00 | DOCKET | Hearing on Motion to Transfer | past_proceedings:10
+2026-02-20 | 13:30:00 | DOCKET | Hearing on Motion to Confirm Arbitration Award | past_proceedings:8
+2026-02-24 | 13:30:00 | DOCKET | Hearing on Motion to Join Necessary Party | past_proceedings:7
+2026-03-03 | 13:30:00 | DOCKET | Hearing on Motion to be Relieved as Counsel | past_proceedings:6
+2026-03-11 |  | DOCKET | Hearing on Motion to Set Aside/Vacate Judgment (CCP 473) scheduled for 04/07/2026 at 08:30 AM in Spring Street Courthouse at Department 2 Not Held - Vacated by Court on 03/11/2026 | register_of_actions:14
+2026-04-07 | 08:30:00 | DOCKET | Hearing on Motion to Set Aside/Vacate Judgment (CCP 473) | past_proceedings:5
+2026-04-10 | 08:30:00 | DOCKET | Hearing on Application for Writ of Attachment (CCP 484.040) | past_proceedings:4
+2026-06-10 |  | DOCKET | Declaration [All Rights [Reserved] | documents_filed:7
+2026-06-10 |  | DOCKET | Declaration [All Rights [Reserved]; Filed by: Laura Alcaraz (Plaintiff) | register_of_actions:13
+2026-07-09 |  | DOCKET | Hearing on Motion to Set Aside/Vacate Dismissal (CCP 473) scheduled for 08/03/2026 at 08:30 AM in Spring Street Courthouse at Department 2 Not Held - Vacated by Court on 07/09/2026 | register_of_actions:12
+2026-07-30 |  | DOCKET | Motion to Set Aside/Vacate Dismissal | documents_filed:5
+2026-07-30 |  | DOCKET | Order on Court Fee Waiver (Superior Court) | documents_filed:6
+2026-07-30 |  | DOCKET | Motion to Set Aside/Vacate Dismissal; Filed by: Laura Alcaraz (Plaintiff) | register_of_actions:9
+2026-07-30 |  | DOCKET | Order on Court Fee Waiver (Superior Court); Signed and Filed by: Clerk; As to: Laura Alcaraz (Plaintiff) | register_of_actions:10
+2026-07-30 |  | DOCKET | Hearing on Motion to Set Aside/Vacate Dismissal (CCP 473) scheduled for 08/19/2026 at 08:30 AM in Spring Street Courthouse at Department 2 | register_of_actions:11
+2026-08-03 | 08:30:00 | DOCKET | Hearing on Motion to Set Aside/Vacate Dismissal (CCP 473) | past_proceedings:3
+2026-08-18 |  | DOCKET | Motion for Evidentiary Hearing; to Vacate Dismissal; Determine Release Validity; Consider Declarations/Exhibits; Restore Docket; Preserve Rights; and Grant Relief | documents_filed:4
+2026-08-18 |  | DOCKET | Motion for Evidentiary Hearing; to Vacate Dismissal; Determine Release Validity; Consider Declarations/Exhibits; Restore Docket; Preserve Rights; and Grant Relief; Filed by: Laura Alcaraz (Plaintiff); As to: Los Angeles County Metropolitan Transportation Authority, a public entity (Defendant) | register_of_actions:8
+2026-08-19 | 08:30:00 | DOCKET | Hearing on Motion to Set Aside/Vacate Dismissal (CCP 473) | past_proceedings:1
+2026-08-19 | 16:25:00 | DOCKET | Court Order | past_proceedings:2
+2026-08-19 |  | DOCKET | Certificate of Mailing for (Court Order Re Reassignment) of 08/19/2026 | documents_filed:1
+2026-08-19 |  | DOCKET | Minute Order (Court Order Re Reassignment) | documents_filed:2
+2026-08-19 |  | DOCKET | Minute Order (Hearing on Motion to Set Aside/Vacate Dismissal (CCP 473) (CR...) | documents_filed:3
+2026-08-19 |  | DOCKET | Updated -- Motion to Set Aside/Vacate Dismissal: Filed By: Laura Alcaraz (Plaintiff); Result: Off Calendar ; Result Date: 08/19/2026 | register_of_actions:1
+2026-08-19 |  | DOCKET | Case reassigned to Alhambra Courthouse in Department X - Hon. Lauren A. R. Lofton; Reason: Inventory Transfer | register_of_actions:2
+2026-08-19 |  | DOCKET | Minute Order (Hearing on Motion to Set Aside/Vacate Dismissal (CCP 473) (CR...) | register_of_actions:3
+2026-08-19 |  | DOCKET | Hearing on Motion - Other PLAINTIFFS? MOTION FOR EVIDENTIARY HEARING; TO VACATE DISMISSAL; DETERMINE RELEASE VALIDITY; CONSIDER DECLARATIONS/EXHIBITS; RESTORE DOCKET; PRESERVE RIGHTS; AND GRANT RELIEF scheduled for 09/16/2026 at 08:30 AM in Spring Street Courthouse at Department 2 | register_of_actions:4
+2026-08-19 |  | DOCKET | Hearing on Motion to Set Aside/Vacate Dismissal (CCP 473) (CRS # 754908678189) scheduled for 08/19/2026 at 08:30 AM in Spring Street Courthouse at Department 2 Not Held - Taken Off Calendar by Court on 08/19/2026 | register_of_actions:5
+2026-08-19 |  | DOCKET | Minute Order (Court Order Re Reassignment) | register_of_actions:6
+2026-08-19 |  | DOCKET | Certificate of Mailing for (Court Order Re Reassignment) of 08/19/2026; Filed by: Clerk | register_of_actions:7
+2026-09-16 | 08:30:00 | DOCKET | Hearing on Motion - Other PLAINTIFFS? MOTION FOR EVIDENTIARY HEARING; TO VACATE DISMISSAL; DETERMINE RELEASE VALIDITY; CONSIDER DECLARATIONS/EXHIBITS; RESTORE DOCKET; PRESERVE RIGHTS; AND GRANT RELIEF | future_hearings:1
+
+PRIOR CHRONOLOGY AND CLINICAL CONTEXT
+SYNCHRONIZED LEGAL–MEDICAL EVIDENCE — 20STCV36044
+APRIL 22, 2024 — temporal alignment, not causation
+
+2024-04-22 | 20:44:57 | CLINICAL_XML | Encounter | 20240422204457-0700
+2024-04-22 | 20:47 | LEGAL_DOCUMENT | Motion to be relieved as counsel — Alcaraz | TRANSCRIBED_DOCUMENT_EVENT; not independent docket row
+2024-04-22 | 20:47 | LEGAL_DOCUMENT | Supporting declaration — Alcaraz | TRANSCRIBED_DOCUMENT_EVENT; not independent docket row
+2024-04-22 | 20:47 | LEGAL_DOCUMENT | Proof of service by mail — Alcaraz | TRANSCRIBED_DOCUMENT_EVENT; not independent docket row
+2024-04-22 | 20:47 | LEGAL_DOCUMENT | Electronic proof of service — defense counsel | TRANSCRIBED_DOCUMENT_EVENT; not independent docket row
+2024-04-22 | 21:08 | LEGAL_DOCUMENT | Motion to be relieved as counsel — Rodriguez | TRANSCRIBED_DOCUMENT_EVENT; not independent docket row
+2024-04-22 | 21:08 | LEGAL_DOCUMENT | Supporting declaration — Rodriguez | TRANSCRIBED_DOCUMENT_EVENT; not independent docket row
+2024-04-22 | 21:08 | LEGAL_DOCUMENT | Proof of service by mail — Rodriguez | TRANSCRIBED_DOCUMENT_EVENT; not independent docket row
+2024-04-22 | 21:08 | LEGAL_DOCUMENT | Electronic proof of service — Rodriguez matter | TRANSCRIBED_DOCUMENT_EVENT; not independent docket row
+2024-04-22 | 22:04:00 | CLINICAL_XML | Vital Signs | 20240422220400-0700
+2024-04-22 | 23:43:00 | CLINICAL_XML | Results | 20240422234300-0700
+2024-04-22 | 23:49:00 | CLINICAL_XML | Medications | 20240422234900-0700
+2024-04-22 | 23:54:00 | CLINICAL_XML | Results | 20240422235400-0700
+
+Encounter start 20:44:57 PDT precedes displayed 20:47 filing minute by nominal 2m03s and 21:08 minute by nominal 23m03s. Exact filing seconds unknown.
+
+CROSS-SOURCE CHRONOLOGY (prior compiled chronology; not independent source verification)
+
+2020-09-28 |  | Guardian ad litem appointment | CIV-010 in prior conversation | Court appointed Laura Alcaraz guardian ad litem for Laura Elisa Rodriguez | Prior produced judicial order; independently identify actual order in filing
+
+2024-04-01 | 10:14:27 PDT | Prior inpatient encounter begins | LAHP_XML_002_Apr_11_2024_Visit_Care_Summaries_123566733.xml | C-CDA header encounter start | C-CDA generated Oct 2026; timestamp is retrospective encounter metadata
+
+2024-04-11 | 19:45 PDT | Prior inpatient encounter ends | LAHP_XML_002_Apr_11_2024_Visit_Care_Summaries_123566733.xml | C-CDA header encounter end; narrative lists discharged home | Do not substitute for contemporaneous discharge note
+
+2024-04-22 | 20:44:57 PDT | Final inpatient encounter registered / begins | LAHP_XML_001_May_16_2024_Visit_Care_Summaries_124478076.xml | C-CDA header encounter-start value 20240422204457-0700 | Not independently confirmed physical arrival or attorney knowledge
+
+2024-04-22 | 20:47 PDT | Alcaraz MC-051 e-filed | 4-22-2024_20STCV36044 L.A Motion to Be Relieved as CounselE100061267.pdf | PDF p.1 filed stamp | Rounded to minute; no proof when document was prepared
+
+2024-04-22 | 21:08 PDT | Rodriguez MC-051 e-filed | 4-22-2024 20STCV36044 LR Motion to Be Relieved as CounselE100061363.pdf | PDF p.1 filed stamp | Rounded to minute; no proof of knowledge of hospitalization
+
+2024-04-22 | Undated hour | Alcaraz MC-052 signed | 4-22-2024 [20STCV36044] L.A Declaration in Support of Attorney's Motion to Be Relieved as Counsel-Civil (Pages 1-2).pdf | PDF p.2 signed April 22, 2024 | Date but not signing time
+
+2024-04-22 | Undated hour | Rodriguez MC-052 signed | 4-22-2024 [20STCV36044] LR Declaration in Support of Attorney's Motion to Be Relieved as Counsel-Civil (Pages 1-2) E100061364.pdf | PDF p.2 signed April 22, 2024 | Date but not signing time
+
+2024-04-30 | 09:47:38 PDT | Inpatient progress note | LAHP_XML_001_May_16_2024_Visit_Care_Summaries_124478076.xml | Embedded note: Still lethargic; HFNC 40 L/min 35%; general exam Awake; recent witnessed seizures | Morning observations cannot prove condition at 11:55 p.m. or continuous coma
+
+2024-04-30 | 15:49:53 PDT | Gastroenterology consult note | LAHP_XML_001_May_16_2024_Visit_Care_Summaries_124478076.xml | GI note: blindness, complex illness, multiple seizures during admission | No contemporaneous independent legal capacity opinion
+
+2024-04-30 | 23:55 approx. | Disputed release visit | Family declaration/other previously provided materials | Mother reports distress and objection | Family testimony, not determined by XML
+
+2024-05-09 |  | Notice of Settlement of Entire Case | Prior supplied court filing | Counsel reported unconditional settlement dated April 30 | Filing does not itself show required section 372 approval
+
+2024-05-09 | 09:43:19 PDT | Neurology progress note | LAHP_XML_001_May_16_2024_Visit_Care_Summaries_124478076.xml | Patient described as obtunded and unable to answer orientation questions | Condition on May 9, not direct April 30 finding
+
+2024-05-16 | 16:03 PDT | Encounter end and death recorded | LAHP_XML_001_May_16_2024_Visit_Care_Summaries_124478076.xml | Encounter high and deceasedTime fields | Medical record; not certified death certificate
+
+CLINICAL SECTION INVENTORY
+Encounter | 1 entries
+Reason for Visit | 0 entries
+Allergies, Adverse Reactions, Alerts | 4 entries
+Treatment Plan | 5 entries
+Immunizations | 5 entries
+Medications | 292 entries
+Problem List | 20 entries
+Procedures | 10 entries
+Results | 156 entries
+Vital Signs | 22 entries
+Functional Status | 6 entries
+Mental Status | 0 entries
+Social History | 6 entries
+Goals | 0 entries
+Hospital Discharge Instructions | 0 entries
+Reason for Referral | 0 entries
+Health Concerns | 0 entries
+Implantable Device List | 1 entries
+Rheumatology Inpatient Progress Note | 1 entries
+ENT Inpatient Progress Note | 2 entries
+NutritionDietary Inpatient Progress Note | 3 entries
+Intensive Care Unit Daily Progress Note | 3 entries
+Nephrology Inpatient Progress Note | 3 entries
+Infectious Disease Inpt. Progress Note | 3 entries
+Respiratory therapy Hospital Progress note | 3 entries
+Neonatal perinatal medicine Progress note | 1 entries
+Internal Med Inpatient Progress Note | 3 entries
+Gastroenterology Inpatient Progress Note | 1 entries
+Neurology Inpatient Progress Note | 3 entries
+Patient Care team information | 2 entries
+Family History | 0 entries
+Insurance Providers | 2 entries
+
+LIMITATIONS
+Six original docket entries: NOT RETRIEVED; eight document events preserved separately; no forced mapping
+Original Chroma medical database: NOT RETRIEVED; prior index and original final-admission XML imported
+Court timestamps: Minute precision; exact filing seconds and service times not verified
+Medical timestamps: Effective time and author time separately stored; encounter diagnoses may be retrospective
+Knowledge and causation: Temporal alignment only; does not prove counsel knowledge, legal capacity, or causation
+
+ORIGINAL CHRONOLOGY
+MASTER EVIDENTIARY CHRONOLOGY — 20STCV36044
+April 22, 2024 module and subsequent event register
+Source SHA-256: 3cdb5f6a04ede4851e45fd73baa543bebd31ef770c20d2f69733bb7eb8a2080a
+Verification: supplied Markdown only; underlying PDFs not independently inspected. Recorded times are not verified service or filing times; timezone unknown.
+
+CHRONOLOGY (sorted; same-time ordering is administrative only)
+2020-09-21 | Unverified | Original complaint filed | Separate individual and representative capacities; filename differs from filing stamp | SOURCE_TRANSCRIPTION | Filing stamp as described | -1309
+2024-04-22 | 8:47 p.m. | Motion to be relieved as counsel — Alcaraz | Counsel affirmatively seeks termination of representation. | SOURCE_TRANSCRIPTION | Recorded timestamp; submission/acceptance/filing distinction unverified | 0
+2024-04-22 | 8:47 p.m. | Supporting declaration — Alcaraz | Documents irreconcilable differences under penalty of perjury. | SOURCE_TRANSCRIPTION | Recorded timestamp; submission/acceptance/filing distinction unverified | 0
+2024-04-22 | 8:47 p.m. | Proof of service by mail — Alcaraz | Documents counsel's representation that withdrawal papers were mailed. | SOURCE_TRANSCRIPTION | Recorded timestamp; submission/acceptance/filing distinction unverified | 0
+2024-04-22 | 8:47 p.m. | Electronic proof of service — defense counsel | Documents declared transmission of withdrawal papers to Metro's counsel. | SOURCE_TRANSCRIPTION | Recorded timestamp; submission/acceptance/filing distinction unverified | 0
+2024-04-22 | 9:08 p.m. | Motion to be relieved as counsel — Rodriguez | Establishes a separate withdrawal proceeding. | SOURCE_TRANSCRIPTION | Recorded timestamp; submission/acceptance/filing distinction unverified | 0
+2024-04-22 | 9:08 p.m. | Supporting declaration — Rodriguez | Separately documents irreconcilable differences. | SOURCE_TRANSCRIPTION | Recorded timestamp; submission/acceptance/filing distinction unverified | 0
+2024-04-22 | 9:08 p.m. | Proof of service by mail — Rodriguez | Identifies Rodriguez individually as the intended recipient. | SOURCE_TRANSCRIPTION | Recorded timestamp; submission/acceptance/filing distinction unverified | 0
+2024-04-22 | 9:08 p.m. | Electronic proof of service — Rodriguez matter | Documents declared transmission to Metro's counsel. | SOURCE_TRANSCRIPTION | Recorded timestamp; submission/acceptance/filing distinction unverified | 0
+2024-04-30 | Approx. 11:50–11:56 p.m. | Disputed settlement encounter | Separate supporting exhibits required | USER_ACCOUNT | Prior account; not independently verified | 8
+2024-05-01 | 9:53 a.m. | Reported document scan | Separate supporting exhibits required | USER_ACCOUNT | Prior account; not independently verified | 9
+2024-05-01 | 11:10 a.m. | Transmission of two release PDFs | Separate supporting exhibits required | USER_ACCOUNT | Prior account; not independently verified | 9
+2024-05-09 | Unverified | Notice of Settlement | Separate supporting exhibits required | USER_ACCOUNT | Prior account; not independently verified | 17
+2024-05-16 | Unverified | Death of Laura Elisa Rodriguez | Separate supporting exhibits required | USER_ACCOUNT | Prior account; not independently verified | 24
+2024-05-17 | 10:00 a.m. | Scheduled Final Status Conference | Establishes proximity to trial. | SCHEDULED_ONLY | Scheduled time | 25
+2024-05-29 | 1:30 p.m. | Scheduled withdrawal hearings | Establishes the contemplated judicial determination of withdrawal. | SCHEDULED_ONLY | Scheduled time | 37
+2024-05-31 | 8:30 a.m. | Scheduled trial | Establishes the underlying litigation remained set for adjudication when withdrawal was sought. | SCHEDULED_ONLY | Scheduled time | 39
+2024-06-25 | Unverified | Order to Show Cause regarding dismissal | Separate supporting exhibits required | USER_ACCOUNT | Prior account; not independently verified | 64
+2024-11-13 | Unverified | Reported Request for Dismissal submission | Separate supporting exhibits required | USER_ACCOUNT | Prior account; not independently verified | 205
+2024-12-03 | Unverified | Reported dismissal with prejudice submission | Separate supporting exhibits required | USER_ACCOUNT | Prior account; not independently verified | 225
+2024-12-04 | Unverified | Entry of dismissal | Separate supporting exhibits required | USER_ACCOUNT | Prior account; not independently verified | 226
+
+EXHIBIT
+id | event_id | form | filename | party | verification
+EX-20200921-001 | 1 | PLD-PI-001 | 09-22-2020_Laura_Alcaraz_Complaint_Filed_PLD-PI-001(20261122-083531).pdf | Both | Proposed ID; original PDF not inspected
+EX-20240422-001 | 2 | MC-051 | 4-22-2024_20STCV36044 L.A Motion to Be Relieved as CounselE100061267(20261122-083528).pdf | Alcaraz | Proposed ID; original PDF not inspected
+EX-20240422-002 | 4 | MC-052 | 4-22-2024 [20STCV36044] L.A Declaration in Support of Attorney's Motion to Be Relieved as Counsel-Civil (Pages 1-2)(20261122-083530).pdf | Alcaraz | Proposed ID; original PDF not inspected
+EX-20240422-003 | 5 | POS-040 | Unverified | Alcaraz | Proposed ID; original PDF not inspected
+EX-20240422-004 | 6 | POS-050 | 4-22-2024 Proof of Service (not Summons and Complaint) - Gabriel Servicing by Harry e100061271(1)(4).pdf | Alcaraz | Proposed ID; original PDF not inspected
+EX-20240422-005 | 7 | MC-051 | 4-22-2024 20STCV36044 LR Motion to Be Relieved as CounselE100061363(8).pdf | Rodriguez | Proposed ID; original PDF not inspected
+EX-20240422-006 | 8 | MC-052 | 4-22-2024 [20STCV36044] LR Declaration in Support of Attorney's Motion to Be Relieved as Counsel-Civil (Pages 1-2) E100061364(8).pdf | Rodriguez | Proposed ID; original PDF not inspected
+EX-20240422-007 | 9 | POS-040 | Unverified | Rodriguez | Proposed ID; original PDF not inspected
+EX-20240422-008 | 10 | POS-050 | 4-22-2024 Proof of Service (not Summons and Complaint) e100061367(1)(4).pdf | Rodriguez | Proposed ID; original PDF not inspected
+EX-20240422-009 | 12 | Reservation | Unverified | Alcaraz | Proposed ID; original PDF not inspected
+EX-20240422-010 | 12 | Reservation | Unverified | Rodriguez | Proposed ID; original PDF not inspected
+
+QUOTATION
+id | event_id | speaker | exact_text | source_line | verification
+1 | 4 | Harry Nalbandyan | Levin & Nalbandyan and Plaintiffs LAURA ALCARAZ have come to a point of irreconcilable differences with regards to the further handling of this action. | 34 | Exact transcription from supplied Markdown
+2 | 8 | Harry Nalbandyan | Levin & Nalbandyan and Plaintiffs LAURA RODRIGUEZ have come to a point of irreconcilable differences with regards to the further handling of this action. | 38 | Exact transcription from supplied Markdown
+
+OBSERVATION
+id | record | observation | relevance | source_line
+1 | Both MC-051 motions | Caption identifies Department 29; item 2(a) identifies Department 32. | Accuracy of hearing notice. | 116
+2 | Reservation confirmations | Both identify Department 29. | Comparison with conflicting hearing information. | 117
+3 | Both MC-052 declarations | Neither personal service nor mail service is selected in item 3(a). | Completeness of the service declaration. | 118
+4 | Both MC-052 declarations | Telephone confirmation is selected in item 3(b). | Identification of the person contacted and confirmation of address. | 119
+5 | Both POS-040 forms | Mail service is selected, but the supplied copies contain only page 1 of 3. | Complete execution and mailing details cannot be verified from these copies. | 120
+6 | Rodriguez withdrawal papers | Directed to Rodriguez individually. | Whether notice sufficiently addressed her representative circumstances. | 121
+7 | Original complaint | Guardian ad litem capacity appears in the caption, while the corresponding exception fields in item 3 remain unmarked. | Consistency of representative-capacity documentation. | 122
+8 | Original complaint | Filing stamp establishes September 21, 2020. | The uploaded filename identifies September 22, 2020; the filing stamp controls the chronology. | 123
+9 | Wrongful death | The original complaint's wrongful-death checkbox is unmarked. | Distinguishes the original pleaded claims from any subsequently arising wrongful-death rights. | 124
+
+APPLICATION
+id | issue | application | source_line
+1 | Settlement formation | Establishes the preceding circumstances against which subsequent assent must be evaluated. | 134
+2 | Actual authority | Supports examination of the instructions given to counsel. | 135
+3 | Apparent authority | Supports examination of opposing counsel's knowledge and reliance. | 136
+4 | Representative capacity | Distinguishes individual rights from rights exercised through a guardian ad litem. | 137
+5 | Aggregate settlement | Supports separate examination of each plaintiff's consent and interests. | 138
+6 | Fiduciary obligations | Establishes the circumstances surrounding counsel's proposed withdrawal. | 139
+7 | Procedural fairness | Supports examination of notice and opportunity to be heard. | 140
+8 | Unauthorized dismissal | Provides context for determining whether later dispositive instructions existed. | 141
+9 | Equitable relief | Provides contemporaneous evidence relevant to whether the parties were deprived of a meaningful opportunity to protect their rights. | 142
+10 | Ratification | Supports examination of whether subsequent conduct constituted informed approval. | 143
+11 | Authentication | Provides a documentary baseline for comparing later instruments and representations. | 144
+12 | Successor interests | Establishes the identity and representative capacity of the original plaintiffs. | 145
+13 | Professional responsibility | Supports examination of counsel's conduct during the contemplated termination of representation. | 146
+14 | Prejudice | Establishes that withdrawal was scheduled two days before trial. | 147
+15 | Accounting | Provides context for examining the authority underlying subsequent receipt and distribution of settlement proceeds. | 148
+
+PARTICIPANT
+id | name | capacity | basis
+1 | Laura Alcaraz | Individual plaintiff; guardian ad litem | Supplied Markdown
+2 | Laura Elisa Rodriguez | Plaintiff appearing through guardian ad litem | Supplied Markdown
+3 | LACMTA | Defendant and public entity | Supplied Markdown
+4 | Does 1–50 | Unidentified defendants | Supplied Markdown
+5 | Harry Nalbandyan | Identified counsel and declarant | Supplied Markdown
+6 | Gabriel Wainfeld | Identified defense counsel | Supplied Markdown
+7 | Kymberly Raygoza | Electronic service declarant | Supplied Markdown
+
+COMPLETE SUPPLIED SOURCE — original wording including motion incorporation sections
+
+| April 22, 2024, 8:47 p.m. | Motion to be relieved as counsel — Alcaraz     | Counsel affirmatively seeks termination of representation.                                      |
+| ------------------------- | ---------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| April 22, 2024, 8:47 p.m. | Supporting declaration — Alcaraz               | Documents irreconcilable differences under penalty of perjury.                                  |
+| April 22, 2024, 8:47 p.m. | Proof of service by mail — Alcaraz             | Documents counsel's representation that withdrawal papers were mailed.                          |
+| April 22, 2024, 8:47 p.m. | Electronic proof of service — defense counsel  | Documents declared transmission of withdrawal papers to Metro's counsel.                        |
+| April 22, 2024, 9:08 p.m. | Motion to be relieved as counsel — Rodriguez   | Establishes a separate withdrawal proceeding.                                                   |
+| April 22, 2024, 9:08 p.m. | Supporting declaration — Rodriguez             | Separately documents irreconcilable differences.                                                |
+| April 22, 2024, 9:08 p.m. | Proof of service by mail — Rodriguez           | Identifies Rodriguez individually as the intended recipient.                                    |
+| April 22, 2024, 9:08 p.m. | Electronic proof of service — Rodriguez matter | Documents declared transmission to Metro's counsel.                                             |
+| May 17, 2024, 10:00 a.m.  | Scheduled Final Status Conference              | Establishes proximity to trial.                                                                 |
+| May 29, 2024, 1:30 p.m.   | Scheduled withdrawal hearings                  | Establishes the contemplated judicial determination of withdrawal.                              |
+| May 31, 2024, 8:30 a.m.   | Scheduled trial                                | Establishes the underlying litigation remained set for adjudication when withdrawal was sought. |
+
+Sources: Original complaint, MC-051 motions, MC-052 declarations, reservation confirmations, POS-040 and POS-050 proofs of service. 
+
+09-22-2020_Laura_Alcaraz_Complaint_Filed_PLD-PI-001(20261122-083531).pdf
+
+4-22-2024 20STCV36044 LR Motion to Be Relieved as CounselE100061363(8).pdf
+
+4-22-2024_20STCV36044 L.A Motion to Be Relieved as CounselE100061267(20261122-083528).pdf
+
+4-22-2024 [20STCV36044] L.A Declaration in Support of Attorney's Motion to Be Relieved as Counsel-Civil (Pages 1-2)(20261122-083530).pdf
+
+4-22-2024 [20STCV36044] LR Declaration in Support of Attorney's Motion to Be Relieved as Counsel-Civil (Pages 1-2) E100061364(8).pdf
+
+
+
+## **3. Counsel's contemporaneous representations**
+
+The two MC-052 declarations contain substantially identical language, differentiated by the identity of the represented plaintiff.
+
+**Regarding Laura Alcaraz:**
+
+> Levin & Nalbandyan and Plaintiffs LAURA ALCARAZ have come to a point of irreconcilable differences with regards to the further handling of this action.
+
+**Regarding Laura Rodriguez:**
+
+> Levin & Nalbandyan and Plaintiffs LAURA RODRIGUEZ have come to a point of irreconcilable differences with regards to the further handling of this action.
+
+Both declarations are dated April 22, 2024, identify Harry Nalbandyan as counsel of record, and bear signatures beneath declarations made under penalty of perjury. 
+
+4-22-2024 [20STCV36044] L.A Declaration in Support of Attorney's Motion to Be Relieved as Counsel-Civil (Pages 1-2)(20261122-083530).pdf
+
+4-22-2024 [20STCV36044] LR Declaration in Support of Attorney's Motion to Be Relieved as Counsel-Civil (Pages 1-2) E100061364(8).pdf
+
+
+
+These statements are significant because they originated from counsel's own filings, rather than from a subsequent characterization by the parties challenging the disposition.
+
+They provide an independent documentary foundation for examining:
+
+- The existence of disagreement between counsel and the represented parties.
+- The nature and scope of counsel's remaining authority.
+- Whether subsequent actions were consistent with the parties' actual instructions.
+- Whether any subsequent agreement resolved the previously documented differences.
+- Whether each plaintiff's interests were separately considered and protected.
+- Whether subsequent representations to the Court accurately reflected intervening events.
+- Whether opposing counsel received information relevant to the disputed authority.
+
+The declarations establish disagreement concerning the handling of the action. They do not, standing alone, establish that the disagreement specifically concerned settlement or that all authority had already terminated.
+
+## **4. Separate parties and representative capacity**
+
+The original complaint expressly identifies:
+
+| Party                 | Capacity                                          |
+| --------------------- | ------------------------------------------------- |
+| Laura Alcaraz         | Individual plaintiff                              |
+| Laura Elisa Rodriguez | Plaintiff appearing through her guardian ad litem |
+| Laura Alcaraz         | Guardian ad litem for Rodriguez                   |
+| LACMTA                | Defendant and public entity                       |
+| Does 1–50             | Unidentified defendants                           |
+
+The original complaint therefore distinguishes individual rights from rights asserted through a representative capacity. 
+
+09-22-2020_Laura_Alcaraz_Complaint_Filed_PLD-PI-001(20261122-083531).pdf
+
+
+
+The April 22 withdrawal motions, however, identify both clients as individuals through item 4(a) of the MC-051 forms. Neither selects the guardian ad litem designation in item 4(j). 
+
+4-22-2024 20STCV36044 LR Motion to Be Relieved as CounselE100061363(8).pdf
+
+4-22-2024_20STCV36044 L.A Motion to Be Relieved as CounselE100061267(20261122-083528).pdf
+
+
+
+Identifying Rodriguez as an individual is not necessarily incorrect. Nevertheless, the distinction between the named plaintiff, her litigation representative, and the capacity in which authority could be exercised warrants examination when evaluating any subsequent compromise.
+
+Neither plaintiff's consent should be inferred solely from the existence of consent attributed to the other.
+
+## **5. Notice to opposing counsel**
+
+Two separately filed electronic proofs of service identify Gabriel Wainfeld as the attorney served on behalf of the Los Angeles County Metropolitan Transportation Authority.
+
+Both identify Kymberly Raygoza as declarant and April 22, 2024, as the date of electronic service.
+
+The later proof of service expressly identifies the withdrawal papers concerning Laura Rodriguez. 
+
+4-22-2024 Proof of Service (not Summons and Complaint) - Gabriel Servicing by Harry e100061271(1)(4).pdf
+
+4-22-2024 Proof of Service (not Summons and Complaint) e100061367(1)(4).pdf
+
+
+
+This provides documentary evidence of declared service upon opposing counsel concerning both withdrawal proceedings.
+
+Its relevance includes the examination of what opposing counsel was informed of before relying upon subsequent representations concerning settlement, consent, or disposition.
+
+The proofs of service do not independently establish actual review of the documents, knowledge of undisclosed client instructions, or participation in any subsequent unauthorized conduct.
+
+## **6. Documentary discrepancies requiring clarification**
+
+| Record                      | Observation                                                                                                            | Relevance                                                                                      |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Both MC-051 motions         | Caption identifies Department 29; item 2(a) identifies Department 32.                                                  | Accuracy of hearing notice.                                                                    |
+| Reservation confirmations   | Both identify Department 29.                                                                                           | Comparison with conflicting hearing information.                                               |
+| Both MC-052 declarations    | Neither personal service nor mail service is selected in item 3(a).                                                    | Completeness of the service declaration.                                                       |
+| Both MC-052 declarations    | Telephone confirmation is selected in item 3(b).                                                                       | Identification of the person contacted and confirmation of address.                            |
+| Both POS-040 forms          | Mail service is selected, but the supplied copies contain only page 1 of 3.                                            | Complete execution and mailing details cannot be verified from these copies.                   |
+| Rodriguez withdrawal papers | Directed to Rodriguez individually.                                                                                    | Whether notice sufficiently addressed her representative circumstances.                        |
+| Original complaint          | Guardian ad litem capacity appears in the caption, while the corresponding exception fields in item 3 remain unmarked. | Consistency of representative-capacity documentation.                                          |
+| Original complaint          | Filing stamp establishes September 21, 2020.                                                                           | The uploaded filename identifies September 22, 2020; the filing stamp controls the chronology. |
+| Wrongful death              | The original complaint's wrongful-death checkbox is unmarked.                                                          | Distinguishes the original pleaded claims from any subsequently arising wrongful-death rights. |
+
+These matters should be presented as identifiable documentary discrepancies requiring clarification, not independent proof of intentional misconduct or automatic invalidity.
+
+# **II. Evidentiary and legal application**
+
+The April 22, 2024 records should serve as a **foundational evidentiary module** applicable to multiple motions, rather than being restricted to a single theory of relief.
+
+| Issue                       | Evidentiary application                                                                                                              |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Settlement formation        | Establishes the preceding circumstances against which subsequent assent must be evaluated.                                           |
+| Actual authority            | Supports examination of the instructions given to counsel.                                                                           |
+| Apparent authority          | Supports examination of opposing counsel's knowledge and reliance.                                                                   |
+| Representative capacity     | Distinguishes individual rights from rights exercised through a guardian ad litem.                                                   |
+| Aggregate settlement        | Supports separate examination of each plaintiff's consent and interests.                                                             |
+| Fiduciary obligations       | Establishes the circumstances surrounding counsel's proposed withdrawal.                                                             |
+| Procedural fairness         | Supports examination of notice and opportunity to be heard.                                                                          |
+| Unauthorized dismissal      | Provides context for determining whether later dispositive instructions existed.                                                     |
+| Equitable relief            | Provides contemporaneous evidence relevant to whether the parties were deprived of a meaningful opportunity to protect their rights. |
+| Ratification                | Supports examination of whether subsequent conduct constituted informed approval.                                                    |
+| Authentication              | Provides a documentary baseline for comparing later instruments and representations.                                                 |
+| Successor interests         | Establishes the identity and representative capacity of the original plaintiffs.                                                     |
+| Professional responsibility | Supports examination of counsel's conduct during the contemplated termination of representation.                                     |
+| Prejudice                   | Establishes that withdrawal was scheduled two days before trial.                                                                     |
+| Accounting                  | Provides context for examining the authority underlying subsequent receipt and distribution of settlement proceeds.                  |
+
+These applications are potential grounds for investigation and argument, not findings that the corresponding violations have occurred.
+
+# **III. Motion incorporation template**
+
+The following section is structured for direct incorporation into a memorandum of points and authorities. It applies the underlying legal principles without unnecessarily repeating statutory references, allowing counsel to select the authorities appropriate to the particular motion.
+
+## COUNSEL'S VOLUNTARY ELECTION TO DISCONTINUE REPRESENTATION DID NOT CONFER AUTHORITY TO EXTINGUISH THE PLAINTIFFS' SUBSTANTIVE RIGHTS
+
+### A. Original purpose and scope of representation
+
+The underlying action was commenced on September 21, 2020, for the adjudication of injuries and damages sustained by two separately identified plaintiffs. The original pleading expressly distinguished Laura Alcaraz, appearing in her individual capacity, from Laura Elisa Rodriguez, appearing by and through her guardian ad litem.
+
+The commencement of the action established the objective for which legal representation was undertaken. That objective was the prosecution and protection of the plaintiffs' respective claims, subject to their lawful instructions and any judicial safeguards applicable to their representative circumstances.
+
+The authority associated with such representation did not constitute an unrestricted delegation of the plaintiffs' substantive rights, nor did it transfer ownership or ultimate control over the disposition of those rights to counsel.
+
+### B. Counsel's affirmative election to discontinue representation
+
+On April 22, 2024, Harry Nalbandyan, identifying himself as counsel of record, filed separate motions seeking to be relieved as counsel for Laura Alcaraz and Laura Rodriguez.
+
+The motions were initiated by counsel through applications for judicial withdrawal rather than through a consensual substitution of attorneys.
+
+In the accompanying declarations, counsel represented under penalty of perjury that irreconcilable differences had arisen concerning the further handling of the action.
+
+These representations were made separately concerning each plaintiff and were submitted while the underlying action remained pending, with a Final Status Conference scheduled for May 17, 2024, and trial scheduled for May 31, 2024.
+
+The withdrawal hearings were scheduled for May 29, 2024, two days before the anticipated commencement of trial.
+
+The resulting record establishes that counsel had affirmatively sought to discontinue representation and had formally represented to the Court that substantial disagreement existed concerning the further handling of the litigation.
+
+### C. Distinction between withdrawal and authority to dispose of substantive rights
+
+Counsel's election to seek withdrawal did not itself extinguish the underlying claims, resolve the matters in controversy, establish the plaintiffs' consent to settlement, or authorize the surrender of their substantive rights.
+
+Although counsel's procedural status may have continued pending judicial determination of the withdrawal motions, that status must be distinguished from the existence of actual authority to compromise the litigation.
+
+The continuation of an attorney's appearance as counsel of record does not independently establish authorization to undertake every action capable of affecting the client's interests.
+
+Likewise, disagreement concerning the further handling of an action cannot be treated as affirmative consent to its termination.
+
+Any subsequent exercise of dispositive authority must therefore be evaluated according to the authorization actually existing at the time of the particular act, rather than inferred exclusively from counsel's continued appearance in the proceedings.
+
+### D. Separate consideration of the plaintiffs' rights and interests
+
+The original complaint and the separately filed withdrawal motions establish that the litigation concerned two distinct plaintiffs.
+
+The existence of a common attorney, common defendant, common underlying occurrence, or common procedural history did not eliminate the separate nature of their respective rights and interests.
+
+Any subsequent compromise affecting both plaintiffs required consideration of the authority, consent, and legal capacity applicable to each.
+
+An instrument attributed to one plaintiff cannot, without further foundation, establish the consent of another. Similarly, an act undertaken in an individual capacity cannot automatically be attributed to the exercise of representative authority.
+
+Where judicial protection of a represented party was required, the existence of counsel or a guardian ad litem did not independently eliminate that protection.
+
+The validity of any subsequent disposition must therefore be examined separately as to each plaintiff, each affected interest, and each capacity in which authorization was purportedly exercised.
+
+### E. Contemporaneous notice to opposing counsel
+
+The April 22, 2024 electronic proofs of service identify Gabriel Wainfeld as the attorney served on behalf of the Los Angeles County Metropolitan Transportation Authority.
+
+The documents identified for service included the withdrawal motions, supporting declarations, and proposed orders. A separate electronic proof of service expressly identified the documents concerning Laura Rodriguez.
+
+The significance of this evidence is not dependent upon an immediate determination of misconduct or participation by opposing counsel.
+
+Rather, it establishes a documented representation of service relevant to determining what information was communicated, available, received, or subsequently relied upon concerning the status and circumstances of plaintiffs' representation.
+
+Any later reliance upon counsel's asserted authority should be considered in conjunction with the information previously communicated and any additional representations made before the subsequent disposition of the action.
+
+### F. Intervening events requiring independent examination
+
+The April 22 filings establish a contemporaneous point of reference from which subsequent events may be evaluated.
+
+Where counsel thereafter represented that the controversy had been resolved, the factual and evidentiary basis for that representation becomes material to the determination of whether an intervening agreement was actually reached.
+
+Relevant considerations include the identity of the participating persons, the capacity in which each acted, the terms communicated, the instructions received, the existence or absence of mutual assent, any contemporaneous objection or rejection, and the authority supporting subsequent implementation.
+
+The existence of a written instrument must be distinguished from the circumstances under which it was prepared, executed, retained, transmitted, accepted, and subsequently relied upon.
+
+A signature, standing alone, does not necessarily resolve every disputed issue concerning the formation, scope, effectiveness, representative authority, or implementation of the instrument.
+
+Each consequential act must be examined according to the facts and authority existing when that act occurred.
+
+### G. Reconciliation of subsequent representations with the contemporaneous record
+
+The Court's attention is directed to the relationship between the representations made on April 22, 2024, and any subsequent representations asserting that the underlying controversy had been resolved.
+
+The earlier declarations are not offered as conclusive proof that a subsequent agreement was impossible. They are offered as contemporaneous evidence establishing circumstances that preceded the asserted disposition and that warrant consideration together with the intervening evidence.
+
+The existence of irreconcilable differences does not preclude the possibility of a later lawful agreement. However, neither does a later representation of settlement independently establish that such differences were resolved through informed and authorized consent.
+
+Where the intervening authorization is disputed, the determination should rest upon competent evidence concerning the events themselves rather than upon assumptions derived exclusively from counsel's procedural status or subsequent filings.
+
+### H. Preservation of the parties' substantive and procedural rights
+
+The requested examination is directed toward determining whether the subsequent disposition accurately reflected the plaintiffs' lawful decisions and whether the procedural mechanisms employed were supported by the necessary underlying authority.
+
+The plaintiffs' substantive rights should not be treated as having been surrendered merely because procedural documents were prepared, transmitted, filed, accepted, or entered.
+
+The existence of a procedural record and the validity of the acts upon which that record depends are distinct matters.
+
+Accordingly, where the evidence establishes that a subsequent disposition exceeded the authority actually conferred, appropriate relief should be considered to restore the affected parties to the position permitted by law, subject to the Court's jurisdiction and the applicable grounds for relief.
+
+### I. Purpose of presenting the April 22, 2024 record
+
+The April 22, 2024 filings are presented to establish the documented circumstances preceding the subsequent disposition of the action.
+
+The requested determination is not founded upon speculation concerning counsel's motives, nor upon an assumption that the election to withdraw independently establishes wrongdoing.
+
+It is founded upon the need to reconcile the contemporaneous documentary record with the authority asserted and exercised in connection with later events.
+
+The ultimate question is whether the disposition of the plaintiffs' substantive rights resulted from their lawful and authorized decisions, or whether those rights were affected through actions undertaken without sufficient underlying authority.
+
+That determination should be made upon the complete evidentiary record, separately accounting for each plaintiff, each relevant capacity, and each consequential act.
+
+SUPPLEMENTAL MOTION PRINCIPLE
+Each consequential act must be evaluated according to the facts and authority existing when that act occurre
