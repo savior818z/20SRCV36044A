@@ -1,0 +1,7 @@
+evidence/originals/*
+!evidence/originals/.gitkeep
+evidence/redacted/*
+!evidence/redacted/.gitkeep
+*.sqlite
+.env
+__pycache__/
